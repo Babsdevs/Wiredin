@@ -4,10 +4,10 @@
     "slug": "wiredin",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#1A0A3B"
     },
@@ -23,8 +23,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#1A0A3B"
       },
-      "package": "com.wiredin.quiz",
-      "googleServicesFile": "./google-services.json"
+      "package": "com.wiredin.quiz"
     }
   }
 }
