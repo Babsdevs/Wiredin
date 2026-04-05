@@ -1,0 +1,203 @@
+{
+  "level": 7,
+  "title": "Level 7",
+  "passMark": 50,
+  "totalQuestions": 15,
+  "questionList": [
+    {
+      "category": "History",
+      "question": "Which empire was the largest in history by land area?",
+      "options": [
+        "Roman Empire",
+        "British Empire",
+        "Mongol Empire",
+        "Ottoman Empire"
+      ],
+      "correctAnswer": "British Empire",
+      "difficulty": "medium",
+      "id": "q_0538"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In Suits, what is the name of Harvey Specter's loyal secretary?",
+      "options": [
+        "Donna Paulsen",
+        "Rachel Zane",
+        "Dana Scott",
+        "Sheila Sazs"
+      ],
+      "correctAnswer": "Donna Paulsen",
+      "difficulty": "medium",
+      "id": "q_0120"
+    },
+    {
+      "category": "Maths",
+      "question": "A footballer's weekly wage is £150,000. He saves 25% of his wage. How much does he save per year?",
+      "options": [
+        "£1.75 million",
+        "£1.95 million",
+        "£2 million",
+        "£2.1 million"
+      ],
+      "correctAnswer": "£1.95 million",
+      "difficulty": "medium",
+      "id": "q_0854"
+    },
+    {
+      "category": "History",
+      "question": "In which year did the Rwandan genocide occur?",
+      "options": [
+        "1990",
+        "1992",
+        "1994",
+        "1996"
+      ],
+      "correctAnswer": "1994",
+      "difficulty": "medium",
+      "id": "q_0439"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What Netflix show is set in a small Spanish town and involves a missing child?",
+      "options": [
+        "Dark",
+        "The Rain",
+        "The Stranger",
+        "Money Heist"
+      ],
+      "correctAnswer": "Dark",
+      "difficulty": "medium",
+      "id": "q_0702"
+    },
+    {
+      "category": "Celebrities",
+      "question": "What is the name of Kim and Kanye's first child?",
+      "options": [
+        "Saint",
+        "North",
+        "Chicago",
+        "Psalm"
+      ],
+      "correctAnswer": "North",
+      "difficulty": "easy",
+      "id": "q_0452"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "What game involves building structures and surviving zombie attacks at night?",
+      "options": [
+        "Roblox",
+        "Minecraft",
+        "Fortnite",
+        "Terraria"
+      ],
+      "correctAnswer": "Minecraft",
+      "difficulty": "easy",
+      "id": "q_0774"
+    },
+    {
+      "category": "Sports",
+      "question": "Which country has won the most Olympic gold medals in total?",
+      "options": [
+        "China",
+        "Russia",
+        "Great Britain",
+        "USA"
+      ],
+      "correctAnswer": "USA",
+      "difficulty": "easy",
+      "id": "q_0663"
+    },
+    {
+      "category": "Maths",
+      "question": "Meryl Streep starred in 60 films. If she appears in an average of 4 films per year, how many years has she been acting?",
+      "options": [
+        "12 years",
+        "15 years",
+        "18 years",
+        "20 years"
+      ],
+      "correctAnswer": "12 years",
+      "difficulty": "medium",
+      "id": "q_0198"
+    },
+    {
+      "category": "Sports",
+      "question": "Who did Tyson Fury defeat to win the WBC heavyweight title in 2020?",
+      "options": [
+        "Anthony Joshua",
+        "Deontay Wilder",
+        "Dillian Whyte",
+        "Andy Ruiz Jr"
+      ],
+      "correctAnswer": "Deontay Wilder",
+      "difficulty": "medium",
+      "id": "q_0682"
+    },
+    {
+      "category": "Sports",
+      "question": "Which player scored the opening goal of the 2018 World Cup in the match between Russia and Saudi Arabia?",
+      "options": [
+        "Artem Dzyuba (Russia)",
+        "Denis Cheryshev (Russia)",
+        "Aleksandr Golovin (Russia)",
+        "Yury Gazinsky (Russia)"
+      ],
+      "correctAnswer": "Yury Gazinsky (Russia)",
+      "difficulty": "medium",
+      "id": "q_0138"
+    },
+    {
+      "category": "Science",
+      "question": "What is the chemical symbol for gold?",
+      "options": [
+        "Au",
+        "Ag",
+        "Fe",
+        "Cu"
+      ],
+      "correctAnswer": "Au",
+      "difficulty": "medium",
+      "id": "q_0727"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What is the name of Carrie's beloved pair of designer shoes, famously stolen at a party in season 3?",
+      "options": [
+        "Manolo Blahniks",
+        "Jimmy Choos",
+        "Christian Louboutins",
+        "Prada Heels"
+      ],
+      "correctAnswer": "Manolo Blahniks",
+      "difficulty": "medium",
+      "id": "q_0090"
+    },
+    {
+      "category": "History",
+      "question": "Who was the first female prime minister of the UK?",
+      "options": [
+        "Theresa May",
+        "Margaret Thatcher",
+        "Harriet Harman",
+        "Liz Truss"
+      ],
+      "correctAnswer": "Margaret Thatcher",
+      "difficulty": "easy",
+      "id": "q_0773"
+    },
+    {
+      "category": "Star Wars",
+      "question": "What is the name of Rey's home planet in The Force Awakens?",
+      "options": [
+        "Tatooine",
+        "Jedha",
+        "Jakku",
+        "Exegol"
+      ],
+      "correctAnswer": "Jakku",
+      "difficulty": "medium",
+      "id": "q_0129"
+    }
+  ]
+}

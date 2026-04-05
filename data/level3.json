@@ -1,0 +1,164 @@
+{
+  "level": 3,
+  "title": "Level 3",
+  "passMark": 25,
+  "totalQuestions": 12,
+  "questionList": [
+    {
+      "category": "Star Wars",
+      "question": "What is the name of the desert planet where Luke Skywalker grows up?",
+      "options": [
+        "Jakku",
+        "Jedha",
+        "Tatooine",
+        "Geonosis"
+      ],
+      "correctAnswer": "Tatooine",
+      "difficulty": "easy",
+      "id": "q_0005"
+    },
+    {
+      "category": "History",
+      "question": "Which wall divided East and West Berlin?",
+      "options": [
+        "The Iron Wall",
+        "The Iron Curtain",
+        "The Berlin Wall",
+        "The Cold Wall"
+      ],
+      "correctAnswer": "The Berlin Wall",
+      "difficulty": "easy",
+      "id": "q_0156"
+    },
+    {
+      "category": "Maths",
+      "question": "A TikTok creator has 20 million followers. If 5% buy merchandise at £25 each, what is the revenue?",
+      "options": [
+        "£22 million",
+        "£25 million",
+        "£28 million",
+        "£30 million"
+      ],
+      "correctAnswer": "£25 million",
+      "difficulty": "easy",
+      "id": "q_0339"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In The Handmaid's Tale, what is the name of the totalitarian society?",
+      "options": [
+        "Panem",
+        "Gilead",
+        "Oceania",
+        "Vought"
+      ],
+      "correctAnswer": "Gilead",
+      "difficulty": "easy",
+      "id": "q_0095"
+    },
+    {
+      "category": "Celebrities",
+      "question": "What is Miley Cyrus's father's name?",
+      "options": [
+        "Billy Ray Cyrus",
+        "Bobby Ray Cyrus",
+        "Billy Bob Cyrus",
+        "Ray Billy Cyrus"
+      ],
+      "correctAnswer": "Billy Ray Cyrus",
+      "difficulty": "easy",
+      "id": "q_0161"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Which celebrity is known for the catchphrase 'That's hot'?",
+      "options": [
+        "Kim Kardashian",
+        "Paris Hilton",
+        "Nicole Richie",
+        "Lindsay Lohan"
+      ],
+      "correctAnswer": "Paris Hilton",
+      "difficulty": "easy",
+      "id": "q_0730"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In The Office (US), who plays Michael Scott?",
+      "options": [
+        "Ricky Gervais",
+        "Ed Helms",
+        "Steve Carell",
+        "John Krasinski"
+      ],
+      "correctAnswer": "Steve Carell",
+      "difficulty": "easy",
+      "id": "q_0633"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Who played Black Panther in the Marvel films?",
+      "options": [
+        "Michael B. Jordan",
+        "Idris Elba",
+        "Chadwick Boseman",
+        "Daniel Kaluuya"
+      ],
+      "correctAnswer": "Chadwick Boseman",
+      "difficulty": "easy",
+      "id": "q_0251"
+    },
+    {
+      "category": "Fashion",
+      "question": "Which social media app did supermodels use most to launch their careers in the 2010s?",
+      "options": [
+        "TikTok",
+        "Snapchat",
+        "Instagram",
+        "Facebook"
+      ],
+      "correctAnswer": "Instagram",
+      "difficulty": "easy",
+      "id": "q_0448"
+    },
+    {
+      "category": "Celebrities",
+      "question": "What sport does LeBron James' son Bronny play?",
+      "options": [
+        "Football",
+        "Baseball",
+        "Basketball",
+        "Soccer"
+      ],
+      "correctAnswer": "Basketball",
+      "difficulty": "easy",
+      "id": "q_0716"
+    },
+    {
+      "category": "Maths",
+      "question": "The Voice TV show has 4 coaches. If each coach has a team of 12 artists, how many total artists are in the competition?",
+      "options": [
+        "42",
+        "44",
+        "46",
+        "48"
+      ],
+      "correctAnswer": "48",
+      "difficulty": "easy",
+      "id": "q_0103"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Which celebrity famously shaved her head in 2007?",
+      "options": [
+        "Lindsay Lohan",
+        "Britney Spears",
+        "Paris Hilton",
+        "Miley Cyrus"
+      ],
+      "correctAnswer": "Britney Spears",
+      "difficulty": "easy",
+      "id": "q_0259"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "level": 10,
+  "title": "Level 10",
+  "passMark": 75,
+  "totalQuestions": 20,
+  "questionList": [
+    {
+      "category": "Science",
+      "question": "What force keeps us on the ground?",
+      "options": [
+        "Magnetism",
+        "Centripetal force",
+        "Gravity",
+        "Friction"
+      ],
+      "correctAnswer": "Gravity",
+      "difficulty": "easy",
+      "id": "q_0628"
+    },
+    {
+      "category": "Maths",
+      "question": "Jay-Z owns a streaming company valued at $500 million. If its value grows 20% next year, what will it be worth?",
+      "options": [
+        "$550 million",
+        "$580 million",
+        "$600 million",
+        "$625 million"
+      ],
+      "correctAnswer": "$600 million",
+      "difficulty": "easy",
+      "id": "q_0539"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In Sex and the City, what is Charlotte's surname after she marries Harry?",
+      "options": [
+        "York",
+        "Goldenblatt",
+        "MacDougal",
+        "York-Goldenblatt"
+      ],
+      "correctAnswer": "Goldenblatt",
+      "difficulty": "medium",
+      "id": "q_0461"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Which celebrity couple are known as 'PeeCee' and Nick?",
+      "options": [
+        "Priyanka Chopra & Nick Jonas",
+        "Penelope Cruz & Nicolas Cage",
+        "Paula Abdul & Nick Cannon",
+        "Paloma Faith & Nick Grimshaw"
+      ],
+      "correctAnswer": "Priyanka Chopra & Nick Jonas",
+      "difficulty": "medium",
+      "id": "q_0645"
+    },
+    {
+      "category": "Food & Culture",
+      "question": "What is the Japanese art of paper folding called?",
+      "options": [
+        "Ikebana",
+        "Origami",
+        "Bonsai",
+        "Kendo"
+      ],
+      "correctAnswer": "Origami",
+      "difficulty": "easy",
+      "id": "q_0753"
+    },
+    {
+      "category": "Music",
+      "question": "Which singer is known as the 'Barbadian Badgal'?",
+      "options": [
+        "Nicki Minaj",
+        "Cardi B",
+        "Rihanna",
+        "Winnie Harlow"
+      ],
+      "correctAnswer": "Rihanna",
+      "difficulty": "easy",
+      "id": "q_0463"
+    },
+    {
+      "category": "Sports",
+      "question": "How many times has Tom Brady been named the NFL Most Valuable Player (MVP) in his career (up to 2021)?",
+      "options": [
+        "2 times",
+        "3 times",
+        "4 times",
+        "5 times"
+      ],
+      "correctAnswer": "4 times",
+      "difficulty": "medium",
+      "id": "q_0603"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What is the name of the coffee shop in Friends?",
+      "options": [
+        "Coffee Corner",
+        "Central Perk",
+        "The Grind",
+        "Java Junction"
+      ],
+      "correctAnswer": "Central Perk",
+      "difficulty": "easy",
+      "id": "q_0776"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "Which YouTuber is known for creating comedic sketches and parodies?",
+      "options": [
+        "Jenna Marbles",
+        "Smosh",
+        "Casey Neistat",
+        "Zoella"
+      ],
+      "correctAnswer": "Smosh",
+      "difficulty": "medium",
+      "id": "q_0224"
+    },
+    {
+      "category": "History",
+      "question": "The Great Wall of China stretches over how many kilometers?",
+      "options": [
+        "8,850 km",
+        "10,000 km",
+        "13,171 km",
+        "15,000 km"
+      ],
+      "correctAnswer": "13,171 km",
+      "difficulty": "medium",
+      "id": "q_0253"
+    },
+    {
+      "category": "Sports",
+      "question": "Who won the 2023 Wimbledon men's singles?",
+      "options": [
+        "Jannik Sinner",
+        "Novak Djokovic",
+        "Carlos Alcaraz",
+        "Daniil Medvedev"
+      ],
+      "correctAnswer": "Carlos Alcaraz",
+      "difficulty": "medium",
+      "id": "q_0407"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What job does Hannah Horvath have in Girls?",
+      "options": [
+        "Teacher",
+        "Writer",
+        "Lawyer",
+        "Doctor"
+      ],
+      "correctAnswer": "Writer",
+      "difficulty": "medium",
+      "id": "q_0396"
+    },
+    {
+      "category": "History",
+      "question": "Which global event in 2014 led to tensions between Russia and Western countries, resulting in sanctions against Russia?",
+      "options": [
+        "Annexation of Crimea",
+        "MH17 plane crash",
+        "Sochi Winter Olympics",
+        "G20 Summit"
+      ],
+      "correctAnswer": "Annexation of Crimea",
+      "difficulty": "medium",
+      "id": "q_0831"
+    },
+    {
+      "category": "Maths",
+      "question": "LeBron James earns $40 million from basketball and $100 million from endorsements. What fraction comes from endorsements?",
+      "options": [
+        "5/7",
+        "10/14",
+        "100/140",
+        "5/7"
+      ],
+      "correctAnswer": "5/7",
+      "difficulty": "medium",
+      "id": "q_0749"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What is the name of the car wash where Walter White works after he starts producing methamphetamine?",
+      "options": [
+        "Sudsy Car Wash",
+        "A1A Car Wash",
+        "Crystal Clear Car Wash",
+        "Sparkle Shine Car Wash"
+      ],
+      "correctAnswer": "A1A Car Wash",
+      "difficulty": "medium",
+      "id": "q_0639"
+    },
+    {
+      "category": "History",
+      "question": "Which ancient wonder was a massive statue of the Greek god Zeus, created by the renowned sculptor Phidias?",
+      "options": [
+        "Statue of Zeus at Olympia",
+        "Colossus of Rhodes",
+        "Lighthouse of Alexandria",
+        "Mausoleum at Halicarnassus"
+      ],
+      "correctAnswer": "Statue of Zeus at Olympia",
+      "difficulty": "medium",
+      "id": "q_0018"
+    },
+    {
+      "category": "Sports",
+      "question": "In which year did Venus Williams first win Wimbledon?",
+      "options": [
+        "1999",
+        "2000",
+        "2001",
+        "2002"
+      ],
+      "correctAnswer": "2000",
+      "difficulty": "medium",
+      "id": "q_0019"
+    },
+    {
+      "category": "History",
+      "question": "In which country was the first Coca-Cola sold outside the United States?",
+      "options": [
+        "Canada",
+        "Mexico",
+        "England",
+        "France"
+      ],
+      "correctAnswer": "Canada",
+      "difficulty": "medium",
+      "id": "q_0243"
+    },
+    {
+      "category": "History",
+      "question": "Which ancient wonder was destroyed by an earthquake in 226 BC?",
+      "options": [
+        "Hanging Gardens",
+        "Temple of Artemis",
+        "Colossus of Rhodes",
+        "Lighthouse of Alexandria"
+      ],
+      "correctAnswer": "Colossus of Rhodes",
+      "difficulty": "medium",
+      "id": "q_0573"
+    },
+    {
+      "category": "Maths",
+      "question": "Bill Gates donated $10 billion to various charitable causes. If he divided the money equally among 5 different charities, how much did each charity receive?",
+      "options": [
+        "$1 billion",
+        "$1.5 billion",
+        "$2 billion",
+        "$2.5 billion"
+      ],
+      "correctAnswer": "$2 billion",
+      "difficulty": "medium",
+      "id": "q_0692"
+    }
+  ]
+}

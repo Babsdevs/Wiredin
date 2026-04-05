@@ -1,0 +1,268 @@
+{
+  "level": 18,
+  "title": "Level 18",
+  "passMark": 125,
+  "totalQuestions": 20,
+  "questionList": [
+    {
+      "category": "TV Shows",
+      "question": "What is the name of the bartender who once owned Moe's Tavern before Moe took over?",
+      "options": [
+        "Moe Szyslak",
+        "Barney Gumble",
+        "Moe's Tavern has always been owned by Moe",
+        "Moe's Tavern was owned by a character named Moe Junior"
+      ],
+      "correctAnswer": "Moe's Tavern was owned by a character named Moe Junior",
+      "difficulty": "medium",
+      "id": "q_0871"
+    },
+    {
+      "category": "Maths",
+      "question": "Kim Kardashian has 364 million Instagram followers. If 1% buy her product, and each product costs £30, what are her sales?",
+      "options": [
+        "£100.8 million",
+        "£108.8 million",
+        "£109.2 million",
+        "£112 million"
+      ],
+      "correctAnswer": "£109.2 million",
+      "difficulty": "hard",
+      "id": "q_0098"
+    },
+    {
+      "category": "Maths",
+      "question": "Ellen DeGeneres hosts a talk show that airs 5 days a week. If there are 4 weeks in a month, how many episodes does she host in a month?",
+      "options": [
+        "15 episodes",
+        "16 episodes",
+        "18 episodes",
+        "20 episodes"
+      ],
+      "correctAnswer": "16 episodes",
+      "difficulty": "medium",
+      "id": "q_0649"
+    },
+    {
+      "category": "Sports",
+      "question": "What is the diameter of a basketball hoop in inches?",
+      "options": [
+        "16",
+        "18",
+        "20",
+        "22"
+      ],
+      "correctAnswer": "18",
+      "difficulty": "hard",
+      "id": "q_0564"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In House of the Dragon, who is Rhaenyra Targaryen's father?",
+      "options": [
+        "Viserys I",
+        "Daemon",
+        "Aegon II",
+        "Corlys"
+      ],
+      "correctAnswer": "Viserys I",
+      "difficulty": "medium",
+      "id": "q_0556"
+    },
+    {
+      "category": "Maths",
+      "question": "Gordon Ramsay owns 12 restaurants worldwide. If each restaurant employs 50 staff members, how many staff members does he employ in total?",
+      "options": [
+        "500 staff members",
+        "600 staff members",
+        "700 staff members",
+        "800 staff members"
+      ],
+      "correctAnswer": "600 staff members",
+      "difficulty": "medium",
+      "id": "q_0588"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What is the name of the fictional school in Bridgerton's universe?",
+      "options": [
+        "Almack's",
+        "White's",
+        "The Ton",
+        "Almack's Assembly Rooms"
+      ],
+      "correctAnswer": "Almack's Assembly Rooms",
+      "difficulty": "hard",
+      "id": "q_0445"
+    },
+    {
+      "category": "Fashion",
+      "question": "Who is the creative director of Gucci?",
+      "options": [
+        "Alessandro Michele",
+        "Tom Ford",
+        "Miuccia Prada",
+        "Hedi Slimane"
+      ],
+      "correctAnswer": "Alessandro Michele",
+      "difficulty": "hard",
+      "id": "q_0053"
+    },
+    {
+      "category": "History",
+      "question": "What was the name of the first country to use the euro as currency?",
+      "options": [
+        "Germany",
+        "France",
+        "All 12 founding eurozone countries simultaneously",
+        "Italy"
+      ],
+      "correctAnswer": "All 12 founding eurozone countries simultaneously",
+      "difficulty": "hard",
+      "id": "q_0607"
+    },
+    {
+      "category": "TV Shows",
+      "question": "Which show stars Hugh Jackman as a con artist and his wife played by Amanda Seyfried?",
+      "options": [
+        "Presumed Innocent",
+        "Bad Monkey",
+        "The Bear",
+        "The Bad Guy"
+      ],
+      "correctAnswer": "Bad Monkey",
+      "difficulty": "hard",
+      "id": "q_0705"
+    },
+    {
+      "category": "History",
+      "question": "In which year did the Chernobyl nuclear disaster occur?",
+      "options": [
+        "1984",
+        "1985",
+        "1986",
+        "1987"
+      ],
+      "correctAnswer": "1986",
+      "difficulty": "medium",
+      "id": "q_0517"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What unusual nickname do the doctors at Grey Sloan Memorial Hospital have for the hospital's Chief of Surgery, Miranda Bailey?",
+      "options": [
+        "Chief Sassy",
+        "The Nazi",
+        "Queen Bee",
+        "The Drill Sergeant"
+      ],
+      "correctAnswer": "The Nazi",
+      "difficulty": "medium",
+      "id": "q_0546"
+    },
+    {
+      "category": "Sports",
+      "question": "Which team won the Fair Play Award for the best disciplinary record during the 2018 World Cup?",
+      "options": [
+        "Japan",
+        "Senegal",
+        "Colombia",
+        "Peru"
+      ],
+      "correctAnswer": "Japan",
+      "difficulty": "medium",
+      "id": "q_0642"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "What year was YouTube founded?",
+      "options": [
+        "2003",
+        "2004",
+        "2005",
+        "2006"
+      ],
+      "correctAnswer": "2005",
+      "difficulty": "medium",
+      "id": "q_0796"
+    },
+    {
+      "category": "Star Wars",
+      "question": "Who trained Luke Skywalker in the ways of the Force after Obi-Wan Kenobi?",
+      "options": [
+        "Mace Windu",
+        "Qui-Gon Jinn",
+        "Yoda",
+        "Anakin Skywalker"
+      ],
+      "correctAnswer": "Yoda",
+      "difficulty": "medium",
+      "id": "q_0661"
+    },
+    {
+      "category": "Science",
+      "question": "Who painted the famous artwork 'Starry Night,' which depicts a village with a dramatic night sky?",
+      "options": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Claude Monet"
+      ],
+      "correctAnswer": "Vincent van Gogh",
+      "difficulty": "medium",
+      "id": "q_0465"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "What is Elon Musk's AI company called?",
+      "options": [
+        "OpenAI",
+        "xAI",
+        "DeepMind",
+        "NeuralX"
+      ],
+      "correctAnswer": "xAI",
+      "difficulty": "medium",
+      "id": "q_0726"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "What does the YouTube channel 'Tasty' specialize in?",
+      "options": [
+        "Tech reviews",
+        "Food recipes and cooking tutorials",
+        "Fashion and beauty",
+        "Travel vlogs"
+      ],
+      "correctAnswer": "Food recipes and cooking tutorials",
+      "difficulty": "medium",
+      "id": "q_0571"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Which search engine company fiercely competes with Google and is known for its emphasis on user privacy?",
+      "options": [
+        "Bing",
+        "Yahoo",
+        "DuckDuckGo",
+        "AOL"
+      ],
+      "correctAnswer": "DuckDuckGo",
+      "difficulty": "medium",
+      "id": "q_0701"
+    },
+    {
+      "category": "Fashion",
+      "question": "Which celeb wore the famous 'naked dress' at the 2015 Met Gala?",
+      "options": [
+        "Kim Kardashian",
+        "Beyoncé",
+        "Jennifer Lopez",
+        "Rihanna"
+      ],
+      "correctAnswer": "Kim Kardashian",
+      "difficulty": "medium",
+      "id": "q_0858"
+    }
+  ]
+}

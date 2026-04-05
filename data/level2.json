@@ -1,0 +1,138 @@
+{
+  "level": 2,
+  "title": "Level 2",
+  "passMark": 20,
+  "totalQuestions": 10,
+  "questionList": [
+    {
+      "category": "YouTube & Tech",
+      "question": "What year was Facebook founded?",
+      "options": [
+        "2002",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "correctAnswer": "2004",
+      "difficulty": "easy",
+      "id": "q_0745"
+    },
+    {
+      "category": "Maths",
+      "question": "Coldplay performed at 60 venues on their Music of the Spheres tour. The average attendance was 60,000. How many fans in total?",
+      "options": [
+        "3.2 million",
+        "3.4 million",
+        "3.6 million",
+        "3.8 million"
+      ],
+      "correctAnswer": "3.6 million",
+      "difficulty": "easy",
+      "id": "q_0071"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In Reacher, what is the main character's first name?",
+      "options": [
+        "Jack",
+        "John",
+        "James",
+        "Joe"
+      ],
+      "correctAnswer": "Jack",
+      "difficulty": "easy",
+      "id": "q_0781"
+    },
+    {
+      "category": "Maths",
+      "question": "Elon Musk tweeted 10 times a day for a year. How many tweets is that in total?",
+      "options": [
+        "3,500",
+        "3,650",
+        "3,850",
+        "4,000"
+      ],
+      "correctAnswer": "3,650",
+      "difficulty": "easy",
+      "id": "q_0211"
+    },
+    {
+      "category": "Food & Culture",
+      "question": "Which city is famous for its deep-dish pizza?",
+      "options": [
+        "New York",
+        "Naples",
+        "Chicago",
+        "Rome"
+      ],
+      "correctAnswer": "Chicago",
+      "difficulty": "easy",
+      "id": "q_0132"
+    },
+    {
+      "category": "Sports",
+      "question": "In cricket, how many balls are in an over?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "correctAnswer": "6",
+      "difficulty": "easy",
+      "id": "q_0060"
+    },
+    {
+      "category": "Fashion",
+      "question": "What is the name of Kim Kardashian's shapewear brand?",
+      "options": [
+        "SKIMS",
+        "Fenty",
+        "Good American",
+        "Ivy Park"
+      ],
+      "correctAnswer": "SKIMS",
+      "difficulty": "easy",
+      "id": "q_0619"
+    },
+    {
+      "category": "Sports",
+      "question": "Which sprinter famously celebrated too early and still won gold at the 2008 Olympics?",
+      "options": [
+        "Justin Gatlin",
+        "Tyson Gay",
+        "Asafa Powell",
+        "Usain Bolt"
+      ],
+      "correctAnswer": "Usain Bolt",
+      "difficulty": "easy",
+      "id": "q_0436"
+    },
+    {
+      "category": "Music",
+      "question": "Which UK singer released 'Hello' in 2015 as a comeback single?",
+      "options": [
+        "Amy Winehouse",
+        "Duffy",
+        "Adele",
+        "Paloma Faith"
+      ],
+      "correctAnswer": "Adele",
+      "difficulty": "easy",
+      "id": "q_0189"
+    },
+    {
+      "category": "Music",
+      "question": "Who is the lead singer of Coldplay?",
+      "options": [
+        "Bono",
+        "Chris Martin",
+        "Matt Bellamy",
+        "Dave Grohl"
+      ],
+      "correctAnswer": "Chris Martin",
+      "difficulty": "easy",
+      "id": "q_0523"
+    }
+  ]
+}

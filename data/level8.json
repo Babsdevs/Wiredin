@@ -1,0 +1,242 @@
+{
+  "level": 8,
+  "title": "Level 8",
+  "passMark": 55,
+  "totalQuestions": 18,
+  "questionList": [
+    {
+      "category": "Fashion",
+      "question": "What is the name of the prestigious fashion award presented annually by the Council of Fashion Designers of America (CFDA)?",
+      "options": [
+        "Fashion Icon Award",
+        "Vogue Fashion Award",
+        "CFDA Fashion Award",
+        "Glamour Style Award"
+      ],
+      "correctAnswer": "CFDA Fashion Award",
+      "difficulty": "medium",
+      "id": "q_0736"
+    },
+    {
+      "category": "History",
+      "question": "Who was the last Pharaoh of ancient Egypt?",
+      "options": [
+        "Nefertiti",
+        "Hatshepsut",
+        "Cleopatra",
+        "Ramesses II"
+      ],
+      "correctAnswer": "Cleopatra",
+      "difficulty": "medium",
+      "id": "q_0765"
+    },
+    {
+      "category": "Music",
+      "question": "Which artist is known as 'The Weeknd'?",
+      "options": [
+        "Abel Tesfaye",
+        "Andre Balazs",
+        "Ace Hood",
+        "Aaron Carter"
+      ],
+      "correctAnswer": "Abel Tesfaye",
+      "difficulty": "medium",
+      "id": "q_0595"
+    },
+    {
+      "category": "Music",
+      "question": "What year did Michael Jackson release 'Bad'?",
+      "options": [
+        "1982",
+        "1985",
+        "1987",
+        "1989"
+      ],
+      "correctAnswer": "1987",
+      "difficulty": "medium",
+      "id": "q_0470"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In The Witcher, what is Geralt's profession?",
+      "options": [
+        "Knight",
+        "Assassin",
+        "Witcher",
+        "Sorcerer"
+      ],
+      "correctAnswer": "Witcher",
+      "difficulty": "easy",
+      "id": "q_0756"
+    },
+    {
+      "category": "Music",
+      "question": "Which artist released the album 'Renaissance' in 2022?",
+      "options": [
+        "Rihanna",
+        "Beyoncé",
+        "Lizzo",
+        "Adele"
+      ],
+      "correctAnswer": "Beyoncé",
+      "difficulty": "easy",
+      "id": "q_0838"
+    },
+    {
+      "category": "Fashion",
+      "question": "Which fashion designer is renowned for his luxury accessories, particularly leather handbags like the Birkin and Kelly bags?",
+      "options": [
+        "Christian Louboutin",
+        "Karl Lagerfeld",
+        "Giorgio Armani",
+        "Hermès"
+      ],
+      "correctAnswer": "Hermès",
+      "difficulty": "medium",
+      "id": "q_0481"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Who did Jennifer Lopez marry in 2022?",
+      "options": [
+        "Sean Combs",
+        "Ben Affleck",
+        "Marc Anthony",
+        "Alex Rodriguez"
+      ],
+      "correctAnswer": "Ben Affleck",
+      "difficulty": "easy",
+      "id": "q_0770"
+    },
+    {
+      "category": "Food & Culture",
+      "question": "Which country is famous for inventing sushi?",
+      "options": [
+        "China",
+        "Japan",
+        "Thailand",
+        "South Korea"
+      ],
+      "correctAnswer": "Japan",
+      "difficulty": "medium",
+      "id": "q_0341"
+    },
+    {
+      "category": "History",
+      "question": "Which African country was never colonised by a European power?",
+      "options": [
+        "Ghana",
+        "Nigeria",
+        "Ethiopia",
+        "South Africa"
+      ],
+      "correctAnswer": "Ethiopia",
+      "difficulty": "medium",
+      "id": "q_0623"
+    },
+    {
+      "category": "Sports",
+      "question": "What is Lionel Messi's highest goal tally in a single La Liga season?",
+      "options": [
+        "48 goals",
+        "50 goals",
+        "53 goals",
+        "59 goals"
+      ],
+      "correctAnswer": "59 goals",
+      "difficulty": "medium",
+      "id": "q_0450"
+    },
+    {
+      "category": "Maths",
+      "question": "Beyoncé's Renaissance World Tour sold 2.7 million tickets. If the average price was £150, what was total revenue?",
+      "options": [
+        "£380 million",
+        "£395 million",
+        "£405 million",
+        "£415 million"
+      ],
+      "correctAnswer": "£405 million",
+      "difficulty": "medium",
+      "id": "q_0489"
+    },
+    {
+      "category": "Maths",
+      "question": "Taylor Swift has 14 cats. If 4 are named after TV characters, what percentage are named after TV characters?",
+      "options": [
+        "25.5%",
+        "27.5%",
+        "28.6%",
+        "30%"
+      ],
+      "correctAnswer": "28.6%",
+      "difficulty": "medium",
+      "id": "q_0694"
+    },
+    {
+      "category": "History",
+      "question": "Which of the following is a present-day wonder known for its intricate rock-cut architecture and water conduit system?",
+      "options": [
+        "Machu Picchu",
+        "Petra",
+        "Taj Mahal",
+        "Angkor Wat"
+      ],
+      "correctAnswer": "Petra",
+      "difficulty": "medium",
+      "id": "q_0613"
+    },
+    {
+      "category": "Maths",
+      "question": "Kylian Mbappé's transfer fee was £180 million. If paid over 3 years equally, how much per year?",
+      "options": [
+        "£50 million",
+        "£55 million",
+        "£60 million",
+        "£65 million"
+      ],
+      "correctAnswer": "£60 million",
+      "difficulty": "easy",
+      "id": "q_0875"
+    },
+    {
+      "category": "TV Shows",
+      "question": "Which weapon does Arya Stark use to kill the Night King in the Battle of Winterfell?",
+      "options": [
+        "Needle",
+        "Longclaw",
+        "Catspaw Dagger",
+        "Dragonglass Dagger"
+      ],
+      "correctAnswer": "Catspaw Dagger",
+      "difficulty": "medium",
+      "id": "q_0844"
+    },
+    {
+      "category": "Celebrities",
+      "question": "What is the name of Beyoncé and Jay-Z's first child?",
+      "options": [
+        "Rumi",
+        "Sir",
+        "Blue Ivy",
+        "Luna"
+      ],
+      "correctAnswer": "Blue Ivy",
+      "difficulty": "easy",
+      "id": "q_0821"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In Modern Family, what is Gloria's nationality?",
+      "options": [
+        "Mexican",
+        "Brazilian",
+        "Colombian",
+        "Venezuelan"
+      ],
+      "correctAnswer": "Colombian",
+      "difficulty": "easy",
+      "id": "q_0468"
+    }
+  ]
+}

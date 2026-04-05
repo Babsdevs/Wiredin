@@ -1,0 +1,203 @@
+{
+  "level": 6,
+  "title": "Level 6",
+  "passMark": 42,
+  "totalQuestions": 15,
+  "questionList": [
+    {
+      "category": "Fashion",
+      "question": "What does the term 'prêt-à-porter' mean in the fashion industry?",
+      "options": [
+        "Custom-made clothing",
+        "Ready-to-wear clothing",
+        "High-end couture",
+        "Fashion accessories"
+      ],
+      "correctAnswer": "Ready-to-wear clothing",
+      "difficulty": "medium",
+      "id": "q_0057"
+    },
+    {
+      "category": "Maths",
+      "question": "Babe Ruth hit 714 home runs in his career. If he hits 6 more home runs, how many home runs will he have hit?",
+      "options": [
+        "720 home runs",
+        "718 home runs",
+        "720 home runs",
+        "730 home runs"
+      ],
+      "correctAnswer": "720 home runs",
+      "difficulty": "medium",
+      "id": "q_0247"
+    },
+    {
+      "category": "Food & Culture",
+      "question": "What is a 'smash burger'?",
+      "options": [
+        "A burger that fell on the floor",
+        "A thin patty smashed flat on a hot griddle",
+        "A burger with extra fillings",
+        "A burger with smashed avocado"
+      ],
+      "correctAnswer": "A thin patty smashed flat on a hot griddle",
+      "difficulty": "easy",
+      "id": "q_0731"
+    },
+    {
+      "category": "History",
+      "question": "What event is often considered the immediate cause of World War II?",
+      "options": [
+        "Invasion of Poland",
+        "Bombing of Hiroshima",
+        "D-Day Landing",
+        "Treaty of Versailles"
+      ],
+      "correctAnswer": "Invasion of Poland",
+      "difficulty": "medium",
+      "id": "q_0503"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "What type of content does the YouTube channel 'Liza Koshy' primarily feature?",
+      "options": [
+        "Gaming",
+        "Beauty tutorials",
+        "Comedy sketches and vlogs",
+        "Fitness and health"
+      ],
+      "correctAnswer": "Comedy sketches and vlogs",
+      "difficulty": "medium",
+      "id": "q_0772"
+    },
+    {
+      "category": "Music",
+      "question": "Which Michael Jackson album includes the tracks 'Smooth Criminal,' 'The Way You Make Me Feel,' and 'Man in the Mirror'?",
+      "options": [
+        "Bad",
+        "Dangerous",
+        "HIStory: Past, Present and Future, Book I",
+        "Invincible"
+      ],
+      "correctAnswer": "Bad",
+      "difficulty": "medium",
+      "id": "q_0801"
+    },
+    {
+      "category": "History",
+      "question": "Which US President was involved in the Watergate scandal?",
+      "options": [
+        "Jimmy Carter",
+        "Gerald Ford",
+        "Richard Nixon",
+        "Lyndon B. Johnson"
+      ],
+      "correctAnswer": "Richard Nixon",
+      "difficulty": "medium",
+      "id": "q_0004"
+    },
+    {
+      "category": "Maths",
+      "question": "Cardi B performed at 4 festivals earning £250,000 each and 2 private events at £1 million each. Total earnings?",
+      "options": [
+        "£2 million",
+        "£3 million",
+        "£4 million",
+        "£5 million"
+      ],
+      "correctAnswer": "£3 million",
+      "difficulty": "medium",
+      "id": "q_0679"
+    },
+    {
+      "category": "Star Wars",
+      "question": "Who trained Obi-Wan Kenobi?",
+      "options": [
+        "Yoda",
+        "Mace Windu",
+        "Qui-Gon Jinn",
+        "Count Dooku"
+      ],
+      "correctAnswer": "Qui-Gon Jinn",
+      "difficulty": "medium",
+      "id": "q_0201"
+    },
+    {
+      "category": "History",
+      "question": "Which country built the Taj Mahal?",
+      "options": [
+        "Pakistan",
+        "Bangladesh",
+        "India",
+        "Afghanistan"
+      ],
+      "correctAnswer": "India",
+      "difficulty": "easy",
+      "id": "q_0632"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In Succession, what is Logan Roy's son Kendall's greatest ambition?",
+      "options": [
+        "To become president",
+        "To lead Waystar RoyCo",
+        "To start his own company",
+        "To expose his father"
+      ],
+      "correctAnswer": "To lead Waystar RoyCo",
+      "difficulty": "medium",
+      "id": "q_0412"
+    },
+    {
+      "category": "Science",
+      "question": "Which gas makes up most of the Sun?",
+      "options": [
+        "Helium",
+        "Oxygen",
+        "Carbon",
+        "Hydrogen"
+      ],
+      "correctAnswer": "Hydrogen",
+      "difficulty": "medium",
+      "id": "q_0500"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "Which country launched the first satellite, Sputnik?",
+      "options": [
+        "USA",
+        "Germany",
+        "Soviet Union",
+        "China"
+      ],
+      "correctAnswer": "Soviet Union",
+      "difficulty": "medium",
+      "id": "q_0370"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "What does 'URL' stand for?",
+      "options": [
+        "Universal Resource Locator",
+        "Unified Reference Link",
+        "Universal Reference Locator",
+        "Uniform Resource Locator"
+      ],
+      "correctAnswer": "Uniform Resource Locator",
+      "difficulty": "medium",
+      "id": "q_0794"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What is the name of Negan's weapon of choice, a barbed wire-covered baseball bat, in The Walking Dead?",
+      "options": [
+        "Widow's Bite",
+        "Lucille",
+        "Excalibur",
+        "The Punisher"
+      ],
+      "correctAnswer": "Lucille",
+      "difficulty": "medium",
+      "id": "q_0348"
+    }
+  ]
+}

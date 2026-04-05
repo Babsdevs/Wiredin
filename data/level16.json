@@ -1,0 +1,268 @@
+{
+  "level": 16,
+  "title": "Level 16",
+  "passMark": 115,
+  "totalQuestions": 20,
+  "questionList": [
+    {
+      "category": "History",
+      "question": "What was the purpose of the Lighthouse of Alexandria, one of the Seven Wonders?",
+      "options": [
+        "Astronomical Observatory",
+        "Religious Temple",
+        "Maritime Navigation Aid",
+        "Royal Palace"
+      ],
+      "correctAnswer": "Maritime Navigation Aid",
+      "difficulty": "medium",
+      "id": "q_0446"
+    },
+    {
+      "category": "Star Wars",
+      "question": "What is the home planet of Darth Vader?",
+      "options": [
+        "Tatooine",
+        "Naboo",
+        "Mustafar",
+        "Coruscant"
+      ],
+      "correctAnswer": "Tatooine",
+      "difficulty": "medium",
+      "id": "q_0437"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What is the name of Tony Soprano's therapist in The Sopranos?",
+      "options": [
+        "Dr Melfi",
+        "Dr Katz",
+        "Dr Green",
+        "Dr Russo"
+      ],
+      "correctAnswer": "Dr Melfi",
+      "difficulty": "medium",
+      "id": "q_0825"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Who is known as 'The Hardest Working Man in Show Business'?",
+      "options": [
+        "Michael Jackson",
+        "James Brown",
+        "Prince",
+        "Stevie Wonder"
+      ],
+      "correctAnswer": "James Brown",
+      "difficulty": "medium",
+      "id": "q_0521"
+    },
+    {
+      "category": "Music",
+      "question": "What is the best-selling album of all time?",
+      "options": [
+        "Thriller – Michael Jackson",
+        "Back in Black – AC/DC",
+        "The Dark Side of the Moon – Pink Floyd",
+        "Bat Out of Hell – Meat Loaf"
+      ],
+      "correctAnswer": "Thriller – Michael Jackson",
+      "difficulty": "medium",
+      "id": "q_0444"
+    },
+    {
+      "category": "Music",
+      "question": "What is the name of Harry Styles' debut solo album?",
+      "options": [
+        "Fine Line",
+        "Harry Styles",
+        "HS1",
+        "Watermelon Sugar"
+      ],
+      "correctAnswer": "Harry Styles",
+      "difficulty": "medium",
+      "id": "q_0880"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "What was the first video game console ever released?",
+      "options": [
+        "Atari 2600",
+        "Nintendo Entertainment System",
+        "Magnavox Odyssey",
+        "Sega Genesis"
+      ],
+      "correctAnswer": "Magnavox Odyssey",
+      "difficulty": "medium",
+      "id": "q_0792"
+    },
+    {
+      "category": "Sports",
+      "question": "How many countries participated in the first modern Olympic Games in 1896?",
+      "options": [
+        "6",
+        "10",
+        "13",
+        "14"
+      ],
+      "correctAnswer": "13",
+      "difficulty": "medium",
+      "id": "q_0811"
+    },
+    {
+      "category": "Maths",
+      "question": "Adele performed 123 shows on her Las Vegas residency. If she earned £1.5 million per show, what was her total earnings?",
+      "options": [
+        "£174.5 million",
+        "£184.5 million",
+        "£192.5 million",
+        "£200 million"
+      ],
+      "correctAnswer": "£184.5 million",
+      "difficulty": "medium",
+      "id": "q_0724"
+    },
+    {
+      "category": "Star Wars",
+      "question": "Which famous movie director cameos in The Mandalorian?",
+      "options": [
+        "Steven Spielberg",
+        "Christopher Nolan",
+        "Taika Waititi",
+        "James Cameron"
+      ],
+      "correctAnswer": "Taika Waititi",
+      "difficulty": "hard",
+      "id": "q_0658"
+    },
+    {
+      "category": "Maths",
+      "question": "Kim Kardashian planted 50 flowers in her garden. If 20% of them didn't grow, how many flowers bloomed?",
+      "options": [
+        "10 flowers",
+        "20 flowers",
+        "30 flowers",
+        "Kim Kardashian doesn't do gardening"
+      ],
+      "correctAnswer": "10 flowers",
+      "difficulty": "medium",
+      "id": "q_0820"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "In 1985, Steve Jobs was ousted from Apple. What was the name of the company he founded afterward?",
+      "options": [
+        "NeXT Computer",
+        "Microsoft",
+        "Pixar Animation Studios",
+        "Tesla"
+      ],
+      "correctAnswer": "NeXT Computer",
+      "difficulty": "medium",
+      "id": "q_0501"
+    },
+    {
+      "category": "Star Wars",
+      "question": "What is the name of the criminal organisation led by Jabba the Hutt?",
+      "options": [
+        "The Empire",
+        "The Syndicate",
+        "The Hutt Cartel",
+        "The Pykes"
+      ],
+      "correctAnswer": "The Hutt Cartel",
+      "difficulty": "hard",
+      "id": "q_0626"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In The Crown, which actress plays Queen Elizabeth II in the first two seasons?",
+      "options": [
+        "Olivia Colman",
+        "Helena Bonham Carter",
+        "Claire Foy",
+        "Imelda Staunton"
+      ],
+      "correctAnswer": "Claire Foy",
+      "difficulty": "medium",
+      "id": "q_0746"
+    },
+    {
+      "category": "Maths",
+      "question": "A streaming service has 238 million subscribers at £10/month. What is their annual revenue?",
+      "options": [
+        "£26.6 billion",
+        "£28.1 billion",
+        "£28.56 billion",
+        "£30 billion"
+      ],
+      "correctAnswer": "£28.56 billion",
+      "difficulty": "hard",
+      "id": "q_0316"
+    },
+    {
+      "category": "TV Shows",
+      "question": "Who created the TV show Euphoria?",
+      "options": [
+        "Ryan Murphy",
+        "Sam Levinson",
+        "Lena Dunham",
+        "Shonda Rhimes"
+      ],
+      "correctAnswer": "Sam Levinson",
+      "difficulty": "hard",
+      "id": "q_0859"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "Who founded Tesla alongside Elon Musk?",
+      "options": [
+        "Larry Page",
+        "Martin Eberhard",
+        "Mark Zuckerberg",
+        "Jeff Bezos"
+      ],
+      "correctAnswer": "Martin Eberhard",
+      "difficulty": "hard",
+      "id": "q_0520"
+    },
+    {
+      "category": "History",
+      "question": "Who was the youngest US president ever to take office?",
+      "options": [
+        "John F. Kennedy",
+        "Theodore Roosevelt",
+        "Bill Clinton",
+        "Barack Obama"
+      ],
+      "correctAnswer": "Theodore Roosevelt",
+      "difficulty": "hard",
+      "id": "q_0553"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In Black Mirror, what year does 'San Junipero' take place in the simulated reality?",
+      "options": [
+        "1983",
+        "1987",
+        "1994",
+        "2002"
+      ],
+      "correctAnswer": "1987",
+      "difficulty": "hard",
+      "id": "q_0737"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Which celebrity is known for her Met Gala 'bear' dress in 2023?",
+      "options": [
+        "Kylie Jenner",
+        "Kim Kardashian",
+        "Doja Cat",
+        "Nicki Minaj"
+      ],
+      "correctAnswer": "Doja Cat",
+      "difficulty": "medium",
+      "id": "q_0637"
+    }
+  ]
+}

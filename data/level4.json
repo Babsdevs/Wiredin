@@ -1,0 +1,164 @@
+{
+  "level": 4,
+  "title": "Level 4",
+  "passMark": 30,
+  "totalQuestions": 12,
+  "questionList": [
+    {
+      "category": "Science",
+      "question": "What is the hardest natural substance on Earth?",
+      "options": [
+        "Gold",
+        "Quartz",
+        "Ruby",
+        "Diamond"
+      ],
+      "correctAnswer": "Diamond",
+      "difficulty": "easy",
+      "id": "q_0464"
+    },
+    {
+      "category": "TV Shows",
+      "question": "Which show follows a group of women in prison in New York?",
+      "options": [
+        "Wentworth",
+        "Bad Girls",
+        "Orange Is the New Black",
+        "Cells"
+      ],
+      "correctAnswer": "Orange Is the New Black",
+      "difficulty": "easy",
+      "id": "q_0434"
+    },
+    {
+      "category": "Fashion",
+      "question": "Which fashion brand is known for its distinctive tartan pattern?",
+      "options": [
+        "Burberry",
+        "Ralph Lauren",
+        "Tommy Hilfiger",
+        "Fred Perry"
+      ],
+      "correctAnswer": "Burberry",
+      "difficulty": "easy",
+      "id": "q_0343"
+    },
+    {
+      "category": "Star Wars",
+      "question": "What planet do the Ewoks live on?",
+      "options": [
+        "Endor",
+        "Kashyyyk",
+        "Bespin",
+        "Yavin 4"
+      ],
+      "correctAnswer": "Endor",
+      "difficulty": "easy",
+      "id": "q_0767"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In Outer Banks, what are the wealthy locals called?",
+      "options": [
+        "Kooks",
+        "Pogues",
+        "Royals",
+        "Elites"
+      ],
+      "correctAnswer": "Kooks",
+      "difficulty": "easy",
+      "id": "q_0559"
+    },
+    {
+      "category": "History",
+      "question": "What year did World War I begin?",
+      "options": [
+        "1912",
+        "1913",
+        "1914",
+        "1915"
+      ],
+      "correctAnswer": "1914",
+      "difficulty": "easy",
+      "id": "q_0430"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "What was Twitter rebranded to in 2023?",
+      "options": [
+        "T",
+        "Bird",
+        "X",
+        "Tweet"
+      ],
+      "correctAnswer": "X",
+      "difficulty": "easy",
+      "id": "q_0725"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Which celebrity launched the beauty brand Fenty Beauty?",
+      "options": [
+        "Beyoncé",
+        "Rihanna",
+        "Cardi B",
+        "Nicki Minaj"
+      ],
+      "correctAnswer": "Rihanna",
+      "difficulty": "easy",
+      "id": "q_0687"
+    },
+    {
+      "category": "Celebrities",
+      "question": "What is Lady Gaga's real name?",
+      "options": [
+        "Stefani Germanotta",
+        "Sandra Garibaldi",
+        "Stephanie Grant",
+        "Sara Gallo"
+      ],
+      "correctAnswer": "Stefani Germanotta",
+      "difficulty": "easy",
+      "id": "q_0400"
+    },
+    {
+      "category": "Maths",
+      "question": "Nicki Minaj has 225 million social media followers across 3 platforms equally. How many per platform?",
+      "options": [
+        "65 million",
+        "70 million",
+        "75 million",
+        "80 million"
+      ],
+      "correctAnswer": "75 million",
+      "difficulty": "easy",
+      "id": "q_0589"
+    },
+    {
+      "category": "Maths",
+      "question": "Stormzy headlined Glastonbury for 90 minutes. If his set had 15 songs, how long was each song on average?",
+      "options": [
+        "5 minutes",
+        "6 minutes",
+        "7 minutes",
+        "8 minutes"
+      ],
+      "correctAnswer": "6 minutes",
+      "difficulty": "easy",
+      "id": "q_0346"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "Which company makes the Galaxy phone?",
+      "options": [
+        "Apple",
+        "Huawei",
+        "Samsung",
+        "OnePlus"
+      ],
+      "correctAnswer": "Samsung",
+      "difficulty": "easy",
+      "id": "q_0799"
+    }
+  ]
+}

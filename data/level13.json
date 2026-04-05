@@ -1,0 +1,268 @@
+{
+  "level": 13,
+  "title": "Level 13",
+  "passMark": 95,
+  "totalQuestions": 20,
+  "questionList": [
+    {
+      "category": "Sports",
+      "question": "Who is the fastest woman in history over 100m?",
+      "options": [
+        "Shelly-Ann Fraser-Pryce",
+        "Florence Griffith-Joyner",
+        "Elaine Thompson-Herah",
+        "Dafne Schippers"
+      ],
+      "correctAnswer": "Florence Griffith-Joyner",
+      "difficulty": "medium",
+      "id": "q_0516"
+    },
+    {
+      "category": "Maths",
+      "question": "Kylie Jenner sold 30% of her cosmetics company for $600 million. What was the company valued at?",
+      "options": [
+        "$1.2 billion",
+        "$1.5 billion",
+        "$2 billion",
+        "$2.5 billion"
+      ],
+      "correctAnswer": "$2 billion",
+      "difficulty": "medium",
+      "id": "q_0681"
+    },
+    {
+      "category": "History",
+      "question": "The Great Wall of China, although not part of the original Seven Wonders, is often considered a wonder of which category?",
+      "options": [
+        "Modern Wonders",
+        "Natural Wonders",
+        "Cultural Wonders",
+        "Industrial Wonders"
+      ],
+      "correctAnswer": "Modern Wonders",
+      "difficulty": "medium",
+      "id": "q_0739"
+    },
+    {
+      "category": "Sports",
+      "question": "What was the main reason for holding the marathon race in the 1896 Olympics?",
+      "options": [
+        "To commemorate the ancient Battle of Marathon",
+        "To honor a famous Greek long-distance runner",
+        "To promote the sport of long-distance running",
+        "To challenge the endurance of athletes"
+      ],
+      "correctAnswer": "To commemorate the ancient Battle of Marathon",
+      "difficulty": "medium",
+      "id": "q_0762"
+    },
+    {
+      "category": "Fashion",
+      "question": "Where is the fashion brand Balenciaga originally from?",
+      "options": [
+        "France",
+        "Italy",
+        "Spain",
+        "Belgium"
+      ],
+      "correctAnswer": "Spain",
+      "difficulty": "hard",
+      "id": "q_0295"
+    },
+    {
+      "category": "Maths",
+      "question": "Kobe Bryant made 83% of his free throws. If he attempted 100 free throws, how many did he make?",
+      "options": [
+        "83 free throws",
+        "85 free throws",
+        "87 free throws",
+        "89 free throws"
+      ],
+      "correctAnswer": "83 free throws",
+      "difficulty": "medium",
+      "id": "q_0568"
+    },
+    {
+      "category": "History",
+      "question": "Which award-winning songwriting duo composed the songs for 'Frozen,' including the Academy Award-winning song 'Let It Go'?",
+      "options": [
+        "Elton John & Tim Rice",
+        "Alan Menken & Howard Ashman",
+        "Richard Rodgers & Oscar Hammerstein II",
+        "Kristen Anderson-Lopez & Robert Lopez"
+      ],
+      "correctAnswer": "Kristen Anderson-Lopez & Robert Lopez",
+      "difficulty": "medium",
+      "id": "q_0614"
+    },
+    {
+      "category": "History",
+      "question": "Who was the Prime Minister of the UK when WWII ended?",
+      "options": [
+        "Neville Chamberlain",
+        "Winston Churchill",
+        "Clement Attlee",
+        "Anthony Eden"
+      ],
+      "correctAnswer": "Clement Attlee",
+      "difficulty": "hard",
+      "id": "q_0028"
+    },
+    {
+      "category": "Music",
+      "question": "What is the name of Ed Sheeran's record label?",
+      "options": [
+        "Atlantic",
+        "Columbia",
+        "Gingerbread Man",
+        "Asylum"
+      ],
+      "correctAnswer": "Gingerbread Man",
+      "difficulty": "hard",
+      "id": "q_0249"
+    },
+    {
+      "category": "Maths",
+      "question": "LeBron James scored 25 points in the first game, 30 points in the second game, and 28 points in the third game. What was his average score per game?",
+      "options": [
+        "27 points",
+        "28 points",
+        "29 points",
+        "30 points"
+      ],
+      "correctAnswer": "27 points",
+      "difficulty": "medium",
+      "id": "q_0864"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In The Good Place, what does Eleanor realise about the neighbourhood?",
+      "options": [
+        "It is purgatory",
+        "It is actually The Bad Place",
+        "It is a simulation",
+        "It is Heaven"
+      ],
+      "correctAnswer": "It is actually The Bad Place",
+      "difficulty": "medium",
+      "id": "q_0548"
+    },
+    {
+      "category": "History",
+      "question": "In 2019, which Latin American country experienced a political and humanitarian crisis, leading to widespread protests and international recognition challenges?",
+      "options": [
+        "Brazil",
+        "Venezuela",
+        "Colombia",
+        "Argentina"
+      ],
+      "correctAnswer": "Venezuela",
+      "difficulty": "medium",
+      "id": "q_0862"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What is the name of the fictional cartoon cat that is a favorite of Lisa Simpson?",
+      "options": [
+        "Itchy",
+        "Scratchy",
+        "Poochie",
+        "Snowball"
+      ],
+      "correctAnswer": "Scratchy",
+      "difficulty": "medium",
+      "id": "q_0643"
+    },
+    {
+      "category": "Celebrities",
+      "question": "What is Cardi B's real name?",
+      "options": [
+        "Belcalis Almánzar",
+        "Cardena Brown",
+        "Carlina Davis",
+        "Beatrice Alvarez"
+      ],
+      "correctAnswer": "Belcalis Almánzar",
+      "difficulty": "medium",
+      "id": "q_0496"
+    },
+    {
+      "category": "History",
+      "question": "Which country has the oldest written constitution still in use?",
+      "options": [
+        "France",
+        "UK",
+        "USA",
+        "Australia"
+      ],
+      "correctAnswer": "USA",
+      "difficulty": "medium",
+      "id": "q_0710"
+    },
+    {
+      "category": "Fashion",
+      "question": "Which model is known as 'The Body' from the 90s?",
+      "options": [
+        "Cindy Crawford",
+        "Naomi Campbell",
+        "Linda Evangelista",
+        "Elle Macpherson"
+      ],
+      "correctAnswer": "Elle Macpherson",
+      "difficulty": "medium",
+      "id": "q_0587"
+    },
+    {
+      "category": "Sports",
+      "question": "Who was the coach of the French national team during the 2018 World Cup?",
+      "options": [
+        "Didier Deschamps",
+        "Joachim Low",
+        "Tite",
+        "Zlatko Dalic"
+      ],
+      "correctAnswer": "Didier Deschamps",
+      "difficulty": "medium",
+      "id": "q_0549"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What was the first Netflix original series to win the Emmy for Outstanding Drama?",
+      "options": [
+        "House of Cards",
+        "Ozark",
+        "The Crown",
+        "Stranger Things"
+      ],
+      "correctAnswer": "The Crown",
+      "difficulty": "hard",
+      "id": "q_0329"
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the boundary where tectonic plates meet?",
+      "options": [
+        "Fault line",
+        "Pressure zone",
+        "Plate boundary",
+        "Rift zone"
+      ],
+      "correctAnswer": "Plate boundary",
+      "difficulty": "medium",
+      "id": "q_0852"
+    },
+    {
+      "category": "Sports",
+      "question": "LeBron James holds the record for the most triple-doubles by a forward in NBA history. How many triple-doubles has he recorded as of 2021?",
+      "options": [
+        "75",
+        "92",
+        "101",
+        "116"
+      ],
+      "correctAnswer": "116",
+      "difficulty": "medium",
+      "id": "q_0591"
+    }
+  ]
+}

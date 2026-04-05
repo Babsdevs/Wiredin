@@ -1,0 +1,138 @@
+{
+  "level": 1,
+  "title": "Level 1",
+  "passMark": 15,
+  "totalQuestions": 10,
+  "questionList": [
+    {
+      "category": "Music",
+      "question": "What genre of music is Stormzy associated with?",
+      "options": [
+        "UK Garage",
+        "Drum and Bass",
+        "Grime",
+        "Afrobeats"
+      ],
+      "correctAnswer": "Grime",
+      "difficulty": "easy",
+      "id": "q_0473"
+    },
+    {
+      "category": "Food & Culture",
+      "question": "From which country does pasta originate?",
+      "options": [
+        "France",
+        "Spain",
+        "Greece",
+        "Italy"
+      ],
+      "correctAnswer": "Italy",
+      "difficulty": "easy",
+      "id": "q_0576"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "Which gaming console was released by Microsoft?",
+      "options": [
+        "PlayStation",
+        "Nintendo Switch",
+        "Xbox",
+        "GameCube"
+      ],
+      "correctAnswer": "Xbox",
+      "difficulty": "easy",
+      "id": "q_0743"
+    },
+    {
+      "category": "Maths",
+      "question": "The Beatles sold 600 million records. If 40% were albums, how many albums were sold?",
+      "options": [
+        "200 million",
+        "240 million",
+        "260 million",
+        "280 million"
+      ],
+      "correctAnswer": "240 million",
+      "difficulty": "easy",
+      "id": "q_0236"
+    },
+    {
+      "category": "Maths",
+      "question": "Adele's album '30' sold 800,000 copies in its first week. If each copy costs £12, how much revenue was generated?",
+      "options": [
+        "£8.4 million",
+        "£9.6 million",
+        "£10.2 million",
+        "£12 million"
+      ],
+      "correctAnswer": "£9.6 million",
+      "difficulty": "easy",
+      "id": "q_0768"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In Peaky Blinders, what city is the gang based in?",
+      "options": [
+        "Manchester",
+        "Liverpool",
+        "London",
+        "Birmingham"
+      ],
+      "correctAnswer": "Birmingham",
+      "difficulty": "easy",
+      "id": "q_0360"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Who is Hailey Baldwin married to?",
+      "options": [
+        "Shawn Mendes",
+        "Nick Jonas",
+        "Justin Bieber",
+        "Joe Jonas"
+      ],
+      "correctAnswer": "Justin Bieber",
+      "difficulty": "easy",
+      "id": "q_0617"
+    },
+    {
+      "category": "Fashion",
+      "question": "Who founded the fashion house Versace?",
+      "options": [
+        "Gianni Versace",
+        "Donatella Versace",
+        "Santo Versace",
+        "Giorgio Versace"
+      ],
+      "correctAnswer": "Gianni Versace",
+      "difficulty": "easy",
+      "id": "q_0401"
+    },
+    {
+      "category": "Food & Culture",
+      "question": "What does 'vegan' mean?",
+      "options": [
+        "No dairy",
+        "No meat",
+        "No animal products at all",
+        "No processed food"
+      ],
+      "correctAnswer": "No animal products at all",
+      "difficulty": "easy",
+      "id": "q_0651"
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the process where a liquid becomes a gas?",
+      "options": [
+        "Condensation",
+        "Evaporation",
+        "Sublimation",
+        "Freezing"
+      ],
+      "correctAnswer": "Evaporation",
+      "difficulty": "easy",
+      "id": "q_0845"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "level": 14,
+  "title": "Level 14",
+  "passMark": 100,
+  "totalQuestions": 20,
+  "questionList": [
+    {
+      "category": "Maths",
+      "question": "If The Weeknd releases 4 songs a year and earns £2 per 1,000 streams, and each song averages 500 million streams, what does he earn per year from streams?",
+      "options": [
+        "£3 million",
+        "£3.5 million",
+        "£4 million",
+        "£4.5 million"
+      ],
+      "correctAnswer": "£4 million",
+      "difficulty": "hard",
+      "id": "q_0698"
+    },
+    {
+      "category": "Maths",
+      "question": "Larry Page invested $3.8 billion in a tech startup. If he owns 20% of the company, what is the total valuation of the startup?",
+      "options": [
+        "$15.2 billion",
+        "$16 billion",
+        "$18 billion",
+        "$19 billion"
+      ],
+      "correctAnswer": "$15.2 billion",
+      "difficulty": "medium",
+      "id": "q_0795"
+    },
+    {
+      "category": "Fashion",
+      "question": "Which iconic supermodel was nicknamed 'The Body' and became famous in the 1980s and 1990s for her appearances in Sports Illustrated Swimsuit Issue?",
+      "options": [
+        "Cindy Crawford",
+        "Naomi Campbell",
+        "Kate Moss",
+        "Elle Macpherson"
+      ],
+      "correctAnswer": "Cindy Crawford",
+      "difficulty": "medium",
+      "id": "q_0680"
+    },
+    {
+      "category": "History",
+      "question": "Which ancient wonder was located in Alexandria, Egypt?",
+      "options": [
+        "The Colossus",
+        "The Lighthouse",
+        "The Hanging Gardens",
+        "The Temple of Artemis"
+      ],
+      "correctAnswer": "The Lighthouse",
+      "difficulty": "medium",
+      "id": "q_0742"
+    },
+    {
+      "category": "Celebrities",
+      "question": "What is Snoop Dogg's real name?",
+      "options": [
+        "Calvin Broadus",
+        "Carlos Brown",
+        "Christopher Douglas",
+        "Calvin Davis"
+      ],
+      "correctAnswer": "Calvin Broadus",
+      "difficulty": "medium",
+      "id": "q_0442"
+    },
+    {
+      "category": "Sports",
+      "question": "Which Formula 1 driver has won the most World Championships?",
+      "options": [
+        "Ayrton Senna",
+        "Michael Schumacher",
+        "Lewis Hamilton",
+        "Sebastian Vettel"
+      ],
+      "correctAnswer": "Lewis Hamilton",
+      "difficulty": "medium",
+      "id": "q_0514"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Which celebrity is known for adopting children from Malawi?",
+      "options": [
+        "Angelina Jolie",
+        "Madonna",
+        "Sandra Bullock",
+        "Charlize Theron"
+      ],
+      "correctAnswer": "Madonna",
+      "difficulty": "medium",
+      "id": "q_0533"
+    },
+    {
+      "category": "Sports",
+      "question": "In which year were women first allowed to run the Boston Marathon officially?",
+      "options": [
+        "1967",
+        "1972",
+        "1975",
+        "1980"
+      ],
+      "correctAnswer": "1972",
+      "difficulty": "hard",
+      "id": "q_0740"
+    },
+    {
+      "category": "Celebrities",
+      "question": "What is the name of Adele's son?",
+      "options": [
+        "Angelo",
+        "Alex",
+        "Adam",
+        "Aaron"
+      ],
+      "correctAnswer": "Angelo",
+      "difficulty": "medium",
+      "id": "q_0592"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "Which YouTuber is famous for his travel vlogs and exploration videos?",
+      "options": [
+        "FunForLouis",
+        "Miranda Sings",
+        "Zoella",
+        "PewDiePie"
+      ],
+      "correctAnswer": "FunForLouis",
+      "difficulty": "medium",
+      "id": "q_0849"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "Which educational YouTube channel is famous for its in-depth explanations of complex topics and subjects such as mathematics and physics?",
+      "options": [
+        "Numberphile",
+        "Veritasium",
+        "TED-Ed",
+        "Khan Academy"
+      ],
+      "correctAnswer": "Numberphile",
+      "difficulty": "medium",
+      "id": "q_0472"
+    },
+    {
+      "category": "Maths",
+      "question": "Juventus stadium holds 41,507 fans. Ronaldo played 98 home games there. If the stadium was full every game, how many total fans saw him?",
+      "options": [
+        "3.9 million",
+        "4.07 million",
+        "4.2 million",
+        "4.5 million"
+      ],
+      "correctAnswer": "4.07 million",
+      "difficulty": "hard",
+      "id": "q_0760"
+    },
+    {
+      "category": "History",
+      "question": "What was the name of the famous Roman road system that connected the cities of the Roman Empire, facilitating trade, communication, and military movements?",
+      "options": [
+        "Via Sacra",
+        "Appian Way",
+        "Aurelian Way",
+        "Trajan's Road"
+      ],
+      "correctAnswer": "Appian Way",
+      "difficulty": "medium",
+      "id": "q_0835"
+    },
+    {
+      "category": "History",
+      "question": "Which country became the world's largest economy in terms of purchasing power parity (PPP) in the 2010s, surpassing the United States?",
+      "options": [
+        "China",
+        "Japan",
+        "India",
+        "Germany"
+      ],
+      "correctAnswer": "China",
+      "difficulty": "medium",
+      "id": "q_0706"
+    },
+    {
+      "category": "Star Wars",
+      "question": "What is the name of the planet where the Jedi Temple is located?",
+      "options": [
+        "Naboo",
+        "Tatooine",
+        "Coruscant",
+        "Kamino"
+      ],
+      "correctAnswer": "Coruscant",
+      "difficulty": "medium",
+      "id": "q_0615"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In Mindhunter, which real-life FBI unit are the agents building?",
+      "options": [
+        "Counter-terrorism",
+        "Behavioural Science Unit",
+        "Financial Crimes",
+        "Cyber Division"
+      ],
+      "correctAnswer": "Behavioural Science Unit",
+      "difficulty": "medium",
+      "id": "q_0667"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Which celebrity chef is known for the phrase 'Bam!'?",
+      "options": [
+        "Gordon Ramsay",
+        "Jamie Oliver",
+        "Emeril Lagasse",
+        "Guy Fieri"
+      ],
+      "correctAnswer": "Emeril Lagasse",
+      "difficulty": "medium",
+      "id": "q_0650"
+    },
+    {
+      "category": "Music",
+      "question": "Who was the first artist to stream 1 billion songs on Spotify?",
+      "options": [
+        "Taylor Swift",
+        "Drake",
+        "Rihanna",
+        "Ed Sheeran"
+      ],
+      "correctAnswer": "Drake",
+      "difficulty": "hard",
+      "id": "q_0683"
+    },
+    {
+      "category": "History",
+      "question": "Which German holiday is celebrated on the day the Berlin Wall fell, marking German Unity Day?",
+      "options": [
+        "Reformation Day",
+        "Oktoberfest",
+        "Tag der Deutschen Einheit",
+        "Karneval"
+      ],
+      "correctAnswer": "Tag der Deutschen Einheit",
+      "difficulty": "medium",
+      "id": "q_0734"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "Which educational YouTube channel is famous for its visually engaging videos explaining scientific phenomena and experiments?",
+      "options": [
+        "Vsauce",
+        "AsapSCIENCE",
+        "Smarter Every Day",
+        "SciShow"
+      ],
+      "correctAnswer": "Smarter Every Day",
+      "difficulty": "medium",
+      "id": "q_0685"
+    }
+  ]
+}

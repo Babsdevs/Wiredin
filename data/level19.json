@@ -1,0 +1,268 @@
+{
+  "level": 19,
+  "title": "Level 19",
+  "passMark": 130,
+  "totalQuestions": 20,
+  "questionList": [
+    {
+      "category": "Sports",
+      "question": "In which year did Lionel Messi break Gerd Muller's record for the most goals in a calendar year?",
+      "options": [
+        "2011",
+        "2012",
+        "2013",
+        "2014"
+      ],
+      "correctAnswer": "2011",
+      "difficulty": "medium",
+      "id": "q_0529"
+    },
+    {
+      "category": "Star Wars",
+      "question": "What colour is Mace Windu's lightsaber?",
+      "options": [
+        "Blue",
+        "Green",
+        "Red",
+        "Purple"
+      ],
+      "correctAnswer": "Purple",
+      "difficulty": "medium",
+      "id": "q_0778"
+    },
+    {
+      "category": "Sports",
+      "question": "Which sport was not included in the program of the first modern Olympics?",
+      "options": [
+        "Swimming",
+        "Gymnastics",
+        "Cycling",
+        "Tennis"
+      ],
+      "correctAnswer": "Tennis",
+      "difficulty": "medium",
+      "id": "q_0829"
+    },
+    {
+      "category": "Music",
+      "question": "Which music legend performed at 3 Super Bowl halftime shows?",
+      "options": [
+        "Michael Jackson",
+        "Madonna",
+        "Prince",
+        "Beyoncé"
+      ],
+      "correctAnswer": "Madonna",
+      "difficulty": "hard",
+      "id": "q_0323"
+    },
+    {
+      "category": "Fashion",
+      "question": "Who is the creative director of Chanel, known for her innovative designs and contributions to the fashion house since the 1980s?",
+      "options": [
+        "Karl Lagerfeld",
+        "Donatella Versace",
+        "Miuccia Prada",
+        "Virginie Viard"
+      ],
+      "correctAnswer": "Virginie Viard",
+      "difficulty": "medium",
+      "id": "q_0609"
+    },
+    {
+      "category": "History",
+      "question": "Who was the first female head of government in the world?",
+      "options": [
+        "Margaret Thatcher",
+        "Indira Gandhi",
+        "Golda Meir",
+        "Sirimavo Bandaranaike"
+      ],
+      "correctAnswer": "Sirimavo Bandaranaike",
+      "difficulty": "hard",
+      "id": "q_0443"
+    },
+    {
+      "category": "History",
+      "question": "Which dynasty built the Forbidden City in Beijing?",
+      "options": [
+        "Han",
+        "Tang",
+        "Ming",
+        "Qing"
+      ],
+      "correctAnswer": "Ming",
+      "difficulty": "hard",
+      "id": "q_0125"
+    },
+    {
+      "category": "Music",
+      "question": "Which artist won the first ever Grammy for Best Rap Album?",
+      "options": [
+        "LL Cool J",
+        "DJ Jazzy Jeff & The Fresh Prince",
+        "NWA",
+        "Beastie Boys"
+      ],
+      "correctAnswer": "DJ Jazzy Jeff & The Fresh Prince",
+      "difficulty": "hard",
+      "id": "q_0351"
+    },
+    {
+      "category": "Maths",
+      "question": "Serena Williams won prize money of $4 million at Wimbledon. If tax takes 45%, how much did she take home?",
+      "options": [
+        "$1.8 million",
+        "$2.2 million",
+        "$2.4 million",
+        "$2.6 million"
+      ],
+      "correctAnswer": "$2.2 million",
+      "difficulty": "medium",
+      "id": "q_0551"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What is the title of the theme song for The Simpsons, performed by Danny Elfman?",
+      "options": [
+        "The Simpsons Boogie",
+        "Simpson Swing",
+        "The Simpsons Theme",
+        "Springfield Shuffle"
+      ],
+      "correctAnswer": "The Simpsons Theme",
+      "difficulty": "medium",
+      "id": "q_0769"
+    },
+    {
+      "category": "Maths",
+      "question": "Steph Curry made 402 three-pointers in one NBA season. If he attempted 810, what was his percentage accuracy?",
+      "options": [
+        "47%",
+        "49%",
+        "51%",
+        "53%"
+      ],
+      "correctAnswer": "49%",
+      "difficulty": "hard",
+      "id": "q_0561"
+    },
+    {
+      "category": "Celebrities",
+      "question": "What is the most common Zoom meeting mishap during the pandemic?",
+      "options": [
+        "Accidentally Turning on Filters",
+        "Pets Interrupting the Call",
+        "Someone Forgetting to Mute Themselves",
+        "Virtual Background Malfunctions"
+      ],
+      "correctAnswer": "Pets Interrupting the Call",
+      "difficulty": "medium",
+      "id": "q_0621"
+    },
+    {
+      "category": "Maths",
+      "question": "Dua Lipa's 'Future Nostalgia' streamed 1 billion times. If she earns £0.003 per stream, how much did she earn?",
+      "options": [
+        "£2 million",
+        "£3 million",
+        "£4 million",
+        "£5 million"
+      ],
+      "correctAnswer": "£3 million",
+      "difficulty": "medium",
+      "id": "q_0625"
+    },
+    {
+      "category": "Sports",
+      "question": "In boxing, how many rounds is a world championship fight?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "correctAnswer": "12",
+      "difficulty": "medium",
+      "id": "q_0455"
+    },
+    {
+      "category": "Sports",
+      "question": "Which swimmer won 7 gold medals at the 2022 World Championships?",
+      "options": [
+        "Caeleb Dressel",
+        "Adam Peaty",
+        "Ryan Murphy",
+        "Florent Manaudou"
+      ],
+      "correctAnswer": "Caeleb Dressel",
+      "difficulty": "hard",
+      "id": "q_0525"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Which celebrity is known for the 'Eat, Pray, Love' memoir?",
+      "options": [
+        "Glennon Doyle",
+        "Elizabeth Gilbert",
+        "Cheryl Strayed",
+        "Brené Brown"
+      ],
+      "correctAnswer": "Elizabeth Gilbert",
+      "difficulty": "medium",
+      "id": "q_0714"
+    },
+    {
+      "category": "Music",
+      "question": "What is the best-selling single of all time globally?",
+      "options": [
+        "Bohemian Rhapsody",
+        "White Christmas",
+        "Shape of You",
+        "Thriller"
+      ],
+      "correctAnswer": "White Christmas",
+      "difficulty": "hard",
+      "id": "q_0280"
+    },
+    {
+      "category": "Music",
+      "question": "Which rapper collaborated with Eminem on 'The Way I Am'?",
+      "options": [
+        "Jay-Z",
+        "Dr Dre",
+        "50 Cent",
+        "Dido"
+      ],
+      "correctAnswer": "Dido",
+      "difficulty": "hard",
+      "id": "q_0148"
+    },
+    {
+      "category": "Sports",
+      "question": "Who was the founder of the modern Olympic Games and served as the president of the International Olympic Committee (IOC)?",
+      "options": [
+        "Pierre de Coubertin",
+        "Baron Pierre de Coubertin",
+        "Thomas Burke",
+        "Spyridon Louis"
+      ],
+      "correctAnswer": "Pierre de Coubertin",
+      "difficulty": "medium",
+      "id": "q_0532"
+    },
+    {
+      "category": "Food & Culture",
+      "question": "Which country is famous for inventing croissants?",
+      "options": [
+        "France",
+        "Austria",
+        "Belgium",
+        "Switzerland"
+      ],
+      "correctAnswer": "Austria",
+      "difficulty": "hard",
+      "id": "q_0294"
+    }
+  ]
+}

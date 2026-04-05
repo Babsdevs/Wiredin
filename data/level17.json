@@ -1,0 +1,268 @@
+{
+  "level": 17,
+  "title": "Level 17",
+  "passMark": 120,
+  "totalQuestions": 20,
+  "questionList": [
+    {
+      "category": "Maths",
+      "question": "Tiger Woods has won 15 major championships in golf. If he wins 2 more major championships, how many major championships will he have won?",
+      "options": [
+        "15 championships",
+        "16 championships",
+        "17 championships",
+        "18 championships"
+      ],
+      "correctAnswer": "16 championships",
+      "difficulty": "medium",
+      "id": "q_0717"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Which Hollywood actor has the most Oscar wins?",
+      "options": [
+        "Jack Nicholson",
+        "Meryl Streep",
+        "Daniel Day-Lewis",
+        "Katharine Hepburn"
+      ],
+      "correctAnswer": "Katharine Hepburn",
+      "difficulty": "hard",
+      "id": "q_0263"
+    },
+    {
+      "category": "History",
+      "question": "The Christ the Redeemer statue in Rio de Janeiro, Brazil, is one of the New Seven Wonders of the World. What is its primary significance?",
+      "options": [
+        "Religious Symbol",
+        "Cultural Landmark",
+        "Political Monument",
+        "Tourist Attraction"
+      ],
+      "correctAnswer": "Religious Symbol",
+      "difficulty": "medium",
+      "id": "q_0867"
+    },
+    {
+      "category": "Sports",
+      "question": "Which nation reached their first-ever World Cup final in 2018?",
+      "options": [
+        "Croatia",
+        "Belgium",
+        "England",
+        "Sweden"
+      ],
+      "correctAnswer": "Croatia",
+      "difficulty": "medium",
+      "id": "q_0873"
+    },
+    {
+      "category": "History",
+      "question": "In 2018, the historic summit between the leaders of North Korea and the United States took place in which city?",
+      "options": [
+        "Singapore",
+        "Beijing",
+        "Seoul",
+        "Hanoi"
+      ],
+      "correctAnswer": "Singapore",
+      "difficulty": "medium",
+      "id": "q_0579"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Which celebrity is famous for the book 'Yes Please'?",
+      "options": [
+        "Tina Fey",
+        "Amy Poehler",
+        "Mindy Kaling",
+        "Chelsea Handler"
+      ],
+      "correctAnswer": "Amy Poehler",
+      "difficulty": "medium",
+      "id": "q_0788"
+    },
+    {
+      "category": "History",
+      "question": "In what year did Putin officially become the President of Russia for the first time?",
+      "options": [
+        "1999",
+        "2000",
+        "2001",
+        "2002"
+      ],
+      "correctAnswer": "2000",
+      "difficulty": "medium",
+      "id": "q_0671"
+    },
+    {
+      "category": "Food & Culture",
+      "question": "What is the main ingredient in guacamole?",
+      "options": [
+        "Tomato",
+        "Avocado",
+        "Onion",
+        "Pepper"
+      ],
+      "correctAnswer": "Avocado",
+      "difficulty": "medium",
+      "id": "q_0541"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "In 2000, Bill Gates stepped down as CEO of Microsoft. Who succeeded him as the company's CEO?",
+      "options": [
+        "Steve Jobs",
+        "Satya Nadella",
+        "Larry Page",
+        "Mark Zuckerberg"
+      ],
+      "correctAnswer": "Satya Nadella",
+      "difficulty": "medium",
+      "id": "q_0547"
+    },
+    {
+      "category": "Fashion",
+      "question": "What is the iconic fashion house known for the 'Bamboo bag'?",
+      "options": [
+        "Prada",
+        "Versace",
+        "Gucci",
+        "Fendi"
+      ],
+      "correctAnswer": "Gucci",
+      "difficulty": "medium",
+      "id": "q_0665"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "What is the primary content of the YouTube channel 'Rosanna Pansino'?",
+      "options": [
+        "DIY crafts",
+        "Cooking and baking",
+        "Music covers",
+        "Fitness tutorials"
+      ],
+      "correctAnswer": "Cooking and baking",
+      "difficulty": "medium",
+      "id": "q_0515"
+    },
+    {
+      "category": "TV Shows",
+      "question": "Which show involves a woman who discovers her husband is a spy?",
+      "options": [
+        "Alias",
+        "Homeland",
+        "The Americans",
+        "Killing Eve"
+      ],
+      "correctAnswer": "The Americans",
+      "difficulty": "medium",
+      "id": "q_0791"
+    },
+    {
+      "category": "Music",
+      "question": "Which rapper has the album 'To Pimp a Butterfly'?",
+      "options": [
+        "J. Cole",
+        "Kendrick Lamar",
+        "Tyler the Creator",
+        "Common"
+      ],
+      "correctAnswer": "Kendrick Lamar",
+      "difficulty": "medium",
+      "id": "q_0647"
+    },
+    {
+      "category": "Maths",
+      "question": "Lizzo had 4 songs in the top 10 simultaneously. If each had 5 million streams per week at £0.003 each, what did she earn that week?",
+      "options": [
+        "£40,000",
+        "£50,000",
+        "£55,000",
+        "£60,000"
+      ],
+      "correctAnswer": "£60,000",
+      "difficulty": "hard",
+      "id": "q_0586"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "What type of content does the YouTube channel 'PBS Space Time' primarily feature?",
+      "options": [
+        "Cooking recipes",
+        "Space exploration and physics",
+        "Movie reviews",
+        "Travel vlogs"
+      ],
+      "correctAnswer": "Space exploration and physics",
+      "difficulty": "medium",
+      "id": "q_0460"
+    },
+    {
+      "category": "Maths",
+      "question": "Pablo Picasso created 50,000 artworks during his career. If 20% of his artworks were paintings, how many paintings did he create?",
+      "options": [
+        "5,000 paintings",
+        "10,000 paintings",
+        "15,000 paintings",
+        "20,000 paintings"
+      ],
+      "correctAnswer": "10,000 paintings",
+      "difficulty": "medium",
+      "id": "q_0689"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Which celebrity is known as 'Mama June'?",
+      "options": [
+        "Honey Boo Boo's mum",
+        "June Cleaver",
+        "Big Mama",
+        "Mama Bear"
+      ],
+      "correctAnswer": "Honey Boo Boo's mum",
+      "difficulty": "medium",
+      "id": "q_0782"
+    },
+    {
+      "category": "Star Wars",
+      "question": "Which planet is completely covered in ocean in Star Wars?",
+      "options": [
+        "Kamino",
+        "Scarif",
+        "Mon Cala",
+        "Ahch-To"
+      ],
+      "correctAnswer": "Kamino",
+      "difficulty": "hard",
+      "id": "q_0590"
+    },
+    {
+      "category": "Science",
+      "question": "Which organ produces insulin in the human body?",
+      "options": [
+        "Liver",
+        "Kidney",
+        "Pancreas",
+        "Spleen"
+      ],
+      "correctAnswer": "Pancreas",
+      "difficulty": "medium",
+      "id": "q_0509"
+    },
+    {
+      "category": "Celebrities",
+      "question": "What is the name of Beyoncé's alter ego, which she introduced on her third studio album and is characterized as her more assertive and confident side?",
+      "options": [
+        "Sasha Fierce",
+        "Queen Bey",
+        "Yoncé",
+        "B-Dazzled"
+      ],
+      "correctAnswer": "Sasha Fierce",
+      "difficulty": "medium",
+      "id": "q_0654"
+    }
+  ]
+}

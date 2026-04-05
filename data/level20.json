@@ -1,0 +1,268 @@
+{
+  "level": 20,
+  "title": "Level 20",
+  "passMark": 140,
+  "totalQuestions": 20,
+  "questionList": [
+    {
+      "category": "Sports",
+      "question": "Which player did LeBron James surpass to become the youngest player in NBA history to reach 30,000 career points?",
+      "options": [
+        "Kobe Bryant",
+        "Michael Jordan",
+        "Kareem Abdul-Jabbar",
+        "Wilt Chamberlain"
+      ],
+      "correctAnswer": "Kobe Bryant",
+      "difficulty": "medium",
+      "id": "q_0879"
+    },
+    {
+      "category": "Maths",
+      "question": "Cardi B performed at 5 venues. Each held 15,000 fans and tickets cost £80. What was total ticket revenue?",
+      "options": [
+        "£4 million",
+        "£5 million",
+        "£6 million",
+        "£7 million"
+      ],
+      "correctAnswer": "£6 million",
+      "difficulty": "medium",
+      "id": "q_0524"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What is the full name of the professor in Money Heist?",
+      "options": [
+        "Sergio Marquina",
+        "Álvaro Morte",
+        "Andrés de Fonollosa",
+        "Raúl Arango"
+      ],
+      "correctAnswer": "Sergio Marquina",
+      "difficulty": "medium",
+      "id": "q_0519"
+    },
+    {
+      "category": "History",
+      "question": "In which country was the Arab Spring first sparked in 2010?",
+      "options": [
+        "Egypt",
+        "Libya",
+        "Syria",
+        "Tunisia"
+      ],
+      "correctAnswer": "Tunisia",
+      "difficulty": "hard",
+      "id": "q_0757"
+    },
+    {
+      "category": "Food & Culture",
+      "question": "Which celebrity opened a restaurant called 'Made in Mexico'?",
+      "options": [
+        "Eva Longoria",
+        "Sofia Vergara",
+        "Jennifer Lopez",
+        "Salma Hayek"
+      ],
+      "correctAnswer": "Eva Longoria",
+      "difficulty": "hard",
+      "id": "q_0190"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In Suits, what law firm do Harvey Specter and Mike Ross work at?",
+      "options": [
+        "Litt Wheeler Williams",
+        "Pearson Specter Litt",
+        "Zane Specter Litt",
+        "Harvey and Associates"
+      ],
+      "correctAnswer": "Pearson Specter Litt",
+      "difficulty": "medium",
+      "id": "q_0636"
+    },
+    {
+      "category": "Science",
+      "question": "How many bones are in the adult human body?",
+      "options": [
+        "196",
+        "206",
+        "216",
+        "226"
+      ],
+      "correctAnswer": "206",
+      "difficulty": "medium",
+      "id": "q_0709"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What streaming platform hosts The Handmaid's Tale?",
+      "options": [
+        "Netflix",
+        "Disney+",
+        "Hulu",
+        "Peacock"
+      ],
+      "correctAnswer": "Hulu",
+      "difficulty": "medium",
+      "id": "q_0491"
+    },
+    {
+      "category": "Maths",
+      "question": "Floyd Mayweather earned $275 million for one fight. If it lasted 36 minutes, how much per minute?",
+      "options": [
+        "$7.2 million",
+        "$7.5 million",
+        "$7.6 million",
+        "$7.8 million"
+      ],
+      "correctAnswer": "$7.6 million",
+      "difficulty": "hard",
+      "id": "q_0048"
+    },
+    {
+      "category": "History",
+      "question": "Where were the Hanging Gardens of Babylon located?",
+      "options": [
+        "Iraq",
+        "Greece",
+        "Egypt",
+        "Turkey"
+      ],
+      "correctAnswer": "Iraq",
+      "difficulty": "medium",
+      "id": "q_0622"
+    },
+    {
+      "category": "Science",
+      "question": "What is the largest organ in the human body?",
+      "options": [
+        "Liver",
+        "Brain",
+        "Skin",
+        "Lung"
+      ],
+      "correctAnswer": "Skin",
+      "difficulty": "medium",
+      "id": "q_0527"
+    },
+    {
+      "category": "History",
+      "question": "When was Nelson Mandela released from prison after serving 27 years for his anti-apartheid activism?",
+      "options": [
+        "1990",
+        "1992",
+        "1994",
+        "1996"
+      ],
+      "correctAnswer": "1990",
+      "difficulty": "medium",
+      "id": "q_0878"
+    },
+    {
+      "category": "Science",
+      "question": "What is the chemical formula for table salt?",
+      "options": [
+        "NaCl",
+        "KCl",
+        "CaCl",
+        "MgCl"
+      ],
+      "correctAnswer": "NaCl",
+      "difficulty": "medium",
+      "id": "q_0787"
+    },
+    {
+      "category": "History",
+      "question": "In 2018, which African country experienced a peaceful political transition after President Robert Mugabe's resignation?",
+      "options": [
+        "Nigeria",
+        "Kenya",
+        "Zimbabwe",
+        "South Africa"
+      ],
+      "correctAnswer": "Zimbabwe",
+      "difficulty": "medium",
+      "id": "q_0505"
+    },
+    {
+      "category": "Maths",
+      "question": "Michael Jordan earned £30 per second from Nike at his peak. How much in an 8-hour day?",
+      "options": [
+        "£864,000",
+        "£900,000",
+        "£960,000",
+        "£1 million"
+      ],
+      "correctAnswer": "£864,000",
+      "difficulty": "hard",
+      "id": "q_0493"
+    },
+    {
+      "category": "Science",
+      "question": "What is the atomic number of carbon?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctAnswer": "6",
+      "difficulty": "medium",
+      "id": "q_0715"
+    },
+    {
+      "category": "Food & Culture",
+      "question": "What is the name of Gordon Ramsay's son who is also a chef?",
+      "options": [
+        "Marco Ramsay",
+        "Tilly Ramsay",
+        "Jack Ramsay",
+        "Oscar Ramsay"
+      ],
+      "correctAnswer": "Jack Ramsay",
+      "difficulty": "medium",
+      "id": "q_0644"
+    },
+    {
+      "category": "Music",
+      "question": "Who produced Michael Jackson's 'Thriller' album?",
+      "options": [
+        "Quincy Jones",
+        "Berry Gordy",
+        "Teddy Riley",
+        "Jimmy Jam"
+      ],
+      "correctAnswer": "Quincy Jones",
+      "difficulty": "medium",
+      "id": "q_0868"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "Which YouTuber is famous for his daily vlogs and lifestyle content?",
+      "options": [
+        "Shane Dawson",
+        "Logan Paul",
+        "David Dobrik",
+        "Lily Singh"
+      ],
+      "correctAnswer": "David Dobrik",
+      "difficulty": "medium",
+      "id": "q_0836"
+    },
+    {
+      "category": "TV Shows",
+      "question": "Which of Carrie's boyfriends was a furniture designer and owner of his own store?",
+      "options": [
+        "Aidan Shaw",
+        "Jack Berger",
+        "Aleksandr Petrovsky",
+        "Ray King"
+      ],
+      "correctAnswer": "Aidan Shaw",
+      "difficulty": "medium",
+      "id": "q_0563"
+    }
+  ]
+}

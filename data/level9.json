@@ -1,0 +1,242 @@
+{
+  "level": 9,
+  "title": "Level 9",
+  "passMark": 65,
+  "totalQuestions": 18,
+  "questionList": [
+    {
+      "category": "Music",
+      "question": "Which artist released 'God's Plan' in 2018?",
+      "options": [
+        "Kendrick Lamar",
+        "J. Cole",
+        "Drake",
+        "Travis Scott"
+      ],
+      "correctAnswer": "Drake",
+      "difficulty": "easy",
+      "id": "q_0813"
+    },
+    {
+      "category": "Food & Culture",
+      "question": "Which city is famous for its bagels and pizza?",
+      "options": [
+        "Chicago",
+        "New York",
+        "Los Angeles",
+        "Miami"
+      ],
+      "correctAnswer": "New York",
+      "difficulty": "easy",
+      "id": "q_0866"
+    },
+    {
+      "category": "Music",
+      "question": "Which song by Dua Lipa was the most streamed song of 2020?",
+      "options": [
+        "Physical",
+        "Levitating",
+        "Don't Start Now",
+        "Break My Heart"
+      ],
+      "correctAnswer": "Don't Start Now",
+      "difficulty": "medium",
+      "id": "q_0223"
+    },
+    {
+      "category": "Fashion",
+      "question": "Which fashion brand has a horse and rider as its logo?",
+      "options": [
+        "Gucci",
+        "Ralph Lauren",
+        "Burberry",
+        "Tommy Hilfiger"
+      ],
+      "correctAnswer": "Ralph Lauren",
+      "difficulty": "easy",
+      "id": "q_0826"
+    },
+    {
+      "category": "Music",
+      "question": "Which music video was the first to reach 1 billion views on YouTube?",
+      "options": [
+        "Baby – Justin Bieber",
+        "Gangnam Style – PSY",
+        "Sorry – Justin Bieber",
+        "Shake It Off – Taylor Swift"
+      ],
+      "correctAnswer": "Gangnam Style – PSY",
+      "difficulty": "medium",
+      "id": "q_0754"
+    },
+    {
+      "category": "Maths",
+      "question": "Lewis Hamilton has won 7 Formula 1 World Championships. Michael Schumacher also won 7. Together how many championships is that?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "correctAnswer": "14",
+      "difficulty": "easy",
+      "id": "q_0585"
+    },
+    {
+      "category": "Maths",
+      "question": "If a celebrity charges £50,000 per appearance and does 3 appearances a week for 40 weeks, how much do they earn?",
+      "options": [
+        "£5.5 million",
+        "£6 million",
+        "£6.5 million",
+        "£7 million"
+      ],
+      "correctAnswer": "£6 million",
+      "difficulty": "easy",
+      "id": "q_0832"
+    },
+    {
+      "category": "History",
+      "question": "Vladimir Putin served as the Prime Minister of Russia under which President before his first term as President?",
+      "options": [
+        "Boris Yeltsin",
+        "Mikhail Gorbachev",
+        "Dmitry Medvedev",
+        "Vladimir Zhirinovsky"
+      ],
+      "correctAnswer": "Boris Yeltsin",
+      "difficulty": "medium",
+      "id": "q_0386"
+    },
+    {
+      "category": "Celebrities",
+      "question": "What is Lizzo's full name?",
+      "options": [
+        "Melissa Jefferson",
+        "Lizzo Williams",
+        "Melissa Rogers",
+        "Lizzo Jefferson"
+      ],
+      "correctAnswer": "Melissa Jefferson",
+      "difficulty": "medium",
+      "id": "q_0834"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What network is Euphoria on in the USA?",
+      "options": [
+        "Netflix",
+        "Hulu",
+        "HBO",
+        "Showtime"
+      ],
+      "correctAnswer": "HBO",
+      "difficulty": "medium",
+      "id": "q_0530"
+    },
+    {
+      "category": "Maths",
+      "question": "Russia is the largest country in the world with an area of 17.1 million square kilometers. What percentage of Earth's total land area does Russia cover?",
+      "options": [
+        "10%",
+        "15%",
+        "20%",
+        "25%"
+      ],
+      "correctAnswer": "15%",
+      "difficulty": "medium",
+      "id": "q_0708"
+    },
+    {
+      "category": "Sports",
+      "question": "In which sport would you perform a 'slam dunk'?",
+      "options": [
+        "Volleyball",
+        "Basketball",
+        "Handball",
+        "Water polo"
+      ],
+      "correctAnswer": "Basketball",
+      "difficulty": "easy",
+      "id": "q_0699"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Who is known as the 'Prince of Pop'?",
+      "options": [
+        "Bruno Mars",
+        "Justin Bieber",
+        "Justin Timberlake",
+        "Nick Jonas"
+      ],
+      "correctAnswer": "Justin Timberlake",
+      "difficulty": "medium",
+      "id": "q_0358"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "Which educational YouTuber is known for explaining scientific concepts and debunking myths?",
+      "options": [
+        "Veritasium",
+        "MinutePhysics",
+        "Vsauce",
+        "SciShow"
+      ],
+      "correctAnswer": "Veritasium",
+      "difficulty": "medium",
+      "id": "q_0512"
+    },
+    {
+      "category": "History",
+      "question": "Which queen ruled England for 70 years, the longest in British history?",
+      "options": [
+        "Queen Victoria",
+        "Queen Mary",
+        "Queen Elizabeth I",
+        "Queen Elizabeth II"
+      ],
+      "correctAnswer": "Queen Elizabeth II",
+      "difficulty": "easy",
+      "id": "q_0616"
+    },
+    {
+      "category": "Celebrities",
+      "question": "Which music icon was known for wearing one glove?",
+      "options": [
+        "Prince",
+        "David Bowie",
+        "Michael Jackson",
+        "Elvis Presley"
+      ],
+      "correctAnswer": "Michael Jackson",
+      "difficulty": "easy",
+      "id": "q_0805"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "What is the primary focus of the YouTube channel 'The Slow Mo Guys'?",
+      "options": [
+        "Science experiments",
+        "Slow-motion videos",
+        "Travel adventures",
+        "Comedy skits"
+      ],
+      "correctAnswer": "Slow-motion videos",
+      "difficulty": "medium",
+      "id": "q_0841"
+    },
+    {
+      "category": "Science",
+      "question": "Which element has the symbol 'Fe'?",
+      "options": [
+        "Fluorine",
+        "Francium",
+        "Iron",
+        "Fermium"
+      ],
+      "correctAnswer": "Iron",
+      "difficulty": "medium",
+      "id": "q_0657"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "level": 11,
+  "title": "Level 11",
+  "passMark": 85,
+  "totalQuestions": 20,
+  "questionList": [
+    {
+      "category": "Science",
+      "question": "What is the boiling point of water in Celsius?",
+      "options": [
+        "90°C",
+        "95°C",
+        "100°C",
+        "110°C"
+      ],
+      "correctAnswer": "100°C",
+      "difficulty": "easy",
+      "id": "q_0479"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What is Phil Dunphy's dream job that he pursues with great enthusiasm, despite the lack of success?",
+      "options": [
+        "Professional magician",
+        "Rockstar",
+        "Stand-up comedian",
+        "Firefighter"
+      ],
+      "correctAnswer": "Stand-up comedian",
+      "difficulty": "medium",
+      "id": "q_0513"
+    },
+    {
+      "category": "Maths",
+      "question": "Oprah gifted 276 audience members each a £40,000 car. What was the total value of the giveaway?",
+      "options": [
+        "£10.04 million",
+        "£11.04 million",
+        "£12.04 million",
+        "£13 million"
+      ],
+      "correctAnswer": "£11.04 million",
+      "difficulty": "medium",
+      "id": "q_0721"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "Which country has the most internet users in the world?",
+      "options": [
+        "USA",
+        "India",
+        "China",
+        "Indonesia"
+      ],
+      "correctAnswer": "China",
+      "difficulty": "medium",
+      "id": "q_0605"
+    },
+    {
+      "category": "History",
+      "question": "In 2013, the Central African Republic experienced a political and humanitarian crisis. What was the name of the conflict that unfolded in the country?",
+      "options": [
+        "Rwandan Genocide",
+        "Arab Spring",
+        "Darfur Conflict",
+        "Seleka Crisis"
+      ],
+      "correctAnswer": "Seleka Crisis",
+      "difficulty": "medium",
+      "id": "q_0218"
+    },
+    {
+      "category": "Music",
+      "question": "What was the name of Michael Jackson's first solo world tour?",
+      "options": [
+        "Bad World Tour",
+        "Dangerous World Tour",
+        "HIStory World Tour",
+        "Victory Tour"
+      ],
+      "correctAnswer": "Bad World Tour",
+      "difficulty": "medium",
+      "id": "q_0554"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "Which social media app is based on sharing photos and videos, owned by Meta?",
+      "options": [
+        "Snapchat",
+        "Pinterest",
+        "Instagram",
+        "TikTok"
+      ],
+      "correctAnswer": "Instagram",
+      "difficulty": "easy",
+      "id": "q_0454"
+    },
+    {
+      "category": "Sports",
+      "question": "What sport does Serena Williams' daughter Alexis Olympia primarily play?",
+      "options": [
+        "Tennis",
+        "Basketball",
+        "Football",
+        "She is too young to compete"
+      ],
+      "correctAnswer": "She is too young to compete",
+      "difficulty": "medium",
+      "id": "q_0091"
+    },
+    {
+      "category": "Sports",
+      "question": "What sport does Naomi Osaka play?",
+      "options": [
+        "Golf",
+        "Tennis",
+        "Badminton",
+        "Table Tennis"
+      ],
+      "correctAnswer": "Tennis",
+      "difficulty": "easy",
+      "id": "q_0535"
+    },
+    {
+      "category": "TV Shows",
+      "question": "In Bridgerton, which Duke does Daphne marry?",
+      "options": [
+        "Duke of Cornwall",
+        "Duke of Hastings",
+        "Duke of Marlborough",
+        "Duke of York"
+      ],
+      "correctAnswer": "Duke of Hastings",
+      "difficulty": "easy",
+      "id": "q_0790"
+    },
+    {
+      "category": "Star Wars",
+      "question": "What is the Mandalorian's real name revealed as in the Disney+ series?",
+      "options": [
+        "Din Djarin",
+        "Boba Fett",
+        "Cobb Vanth",
+        "Paz Vizsla"
+      ],
+      "correctAnswer": "Din Djarin",
+      "difficulty": "medium",
+      "id": "q_0365"
+    },
+    {
+      "category": "Maths",
+      "question": "Oprah Winfrey donated 30% of her $2 billion fortune to charity. How much money did she donate?",
+      "options": [
+        "$300 million",
+        "$600 million",
+        "$700 million",
+        "$800 million"
+      ],
+      "correctAnswer": "$300 million",
+      "difficulty": "medium",
+      "id": "q_0447"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "What is the character limit on a standard tweet (X post)?",
+      "options": [
+        "140",
+        "240",
+        "280",
+        "320"
+      ],
+      "correctAnswer": "280",
+      "difficulty": "medium",
+      "id": "q_0058"
+    },
+    {
+      "category": "YouTube & Tech",
+      "question": "Which YouTuber is known for his tech reviews and gadget unboxings?",
+      "options": [
+        "iJustine",
+        "Casey Neistat",
+        "Philip DeFranco",
+        "Marques Brownlee"
+      ],
+      "correctAnswer": "Marques Brownlee",
+      "difficulty": "medium",
+      "id": "q_0531"
+    },
+    {
+      "category": "Fashion",
+      "question": "Which magazine is known as the 'Bible of Fashion'?",
+      "options": [
+        "Elle",
+        "Cosmopolitan",
+        "Vogue",
+        "Harper's Bazaar"
+      ],
+      "correctAnswer": "Vogue",
+      "difficulty": "easy",
+      "id": "q_0459"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What is the name of the Dunder Mifflin branch in The Office US?",
+      "options": [
+        "New York",
+        "Philadelphia",
+        "Scranton",
+        "Albany"
+      ],
+      "correctAnswer": "Scranton",
+      "difficulty": "medium",
+      "id": "q_0193"
+    },
+    {
+      "category": "TV Shows",
+      "question": "What is the alias used by Saul Goodman, the colorful lawyer in Breaking Bad?",
+      "options": [
+        "Jimmy McGill",
+        "Saul Badman",
+        "Heisenberg",
+        "Pinkman Esq."
+      ],
+      "correctAnswer": "Jimmy McGill",
+      "difficulty": "medium",
+      "id": "q_0240"
+    },
+    {
+      "category": "TV Shows",
+      "question": "Which character is responsible for creating the Night King in the Game of Thrones TV series?",
+      "options": [
+        "Bran Stark",
+        "The Three-Eyed Raven",
+        "The Children of the Forest",
+        "The Lord of Light"
+      ],
+      "correctAnswer": "The Children of the Forest",
+      "difficulty": "medium",
+      "id": "q_0857"
+    },
+    {
+      "category": "TV Shows",
+      "question": "Which character was once known as 'The Gunther' among the hospital staff due to his peculiar coffee-making skills?",
+      "options": [
+        "Richard Webber",
+        "Alex Karev",
+        "George O'Malley",
+        "Derek Shepherd"
+      ],
+      "correctAnswer": "Richard Webber",
+      "difficulty": "medium",
+      "id": "q_0477"
+    },
+    {
+      "category": "Maths",
+      "question": "Roger Federer won 20 Grand Slams and earned $130 million in prize money. On average, how much per Grand Slam?",
+      "options": [
+        "$5.5 million",
+        "$6.5 million",
+        "$7.5 million",
+        "$8.5 million"
+      ],
+      "correctAnswer": "$6.5 million",
+      "difficulty": "medium",
+      "id": "q_0482"
+    }
+  ]
+}
