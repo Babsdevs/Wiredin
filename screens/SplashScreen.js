@@ -39,7 +39,7 @@ export default function SplashScreenView({ navigation }) {
       ]).start();
 
       const timer = setTimeout(() => {
-        navigation.replace('Home');
+        navigation.replace('Login');
       }, 2500);
 
       return () => clearTimeout(timer);

@@ -10,6 +10,7 @@ import {
 import { useFonts, Nunito_900Black, Nunito_800ExtraBold } from '@expo-google-fonts/nunito';
 import { Poppins_400Regular, Poppins_600SemiBold } from '@expo-google-fonts/poppins';
 import { colors } from '../utils/theme';
+import { logout, getCurrentUser } from '../utils/authService';
 import { setMuted, getMuted, setMusicVolume } from '../utils/soundManager';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -176,6 +177,37 @@ export default function SettingsScreen({ navigation }) {
             </Text>
           </View>
         </View>
+
+        <Text style={styles.sectionTitle}>ACCOUNT</Text>
+
+        {getCurrentUser() ? (
+          <View style={styles.settingBlock}>
+            <View style={styles.settingInfo}>
+              <Text style={styles.settingName}>
+                {getCurrentUser()?.displayName || 'Player'}
+              </Text>
+              <Text style={styles.settingDesc}>
+                {getCurrentUser()?.email}
+              </Text>
+            </View>
+            <TouchableOpacity
+              style={styles.logoutBtn}
+              onPress={async () => {
+                await logout();
+                navigation.replace('Login');
+              }}
+            >
+              <Text style={styles.logoutBtnText}>Sign Out</Text>
+            </TouchableOpacity>
+          </View>
+        ) : (
+          <TouchableOpacity
+            style={styles.signInBtn}
+            onPress={() => navigation.navigate('Login')}
+          >
+            <Text style={styles.signInBtnText}>Sign In / Create Account</Text>
+          </TouchableOpacity>
+        )}
 
         <Text style={styles.sectionTitle}>ABOUT</Text>
 
@@ -393,5 +425,31 @@ const styles = StyleSheet.create({
   linkArrow: {
     fontSize: 16,
     color: colors.textSecondary,
+  },
+  logoutBtn: {
+    backgroundColor: colors.wrong + '22',
+    borderRadius: 10,
+    paddingHorizontal: 14,
+    paddingVertical: 8,
+    borderWidth: 1,
+    borderColor: colors.wrong,
+  },
+  logoutBtnText: {
+    fontFamily: 'Poppins_600SemiBold',
+    fontSize: 13,
+    color: colors.wrong,
+  },
+  signInBtn: {
+    backgroundColor: colors.gold,
+    borderRadius: 14,
+    padding: 16,
+    alignItems: 'center',
+    marginBottom: 8,
+  },
+  signInBtnText: {
+    fontFamily: 'Nunito_900Black',
+    fontSize: 15,
+    color: colors.background,
+    letterSpacing: 1,
   },
 });

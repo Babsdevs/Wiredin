@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -9,6 +9,8 @@ import {
 import { useFonts, Nunito_900Black, Nunito_800ExtraBold } from '@expo-google-fonts/nunito';
 import { Poppins_400Regular, Poppins_600SemiBold } from '@expo-google-fonts/poppins';
 import { colors } from '../utils/theme';
+import { getGlobalLeaderboard, getWeeklyLeaderboard } from '../utils/firestoreService';
+import { getCurrentUser } from '../utils/authService';
 
 const MOCK_DATA = [
   { rank: 1, name: 'QuizKing99', level: 18, score: 2840, initials: 'QK' },
@@ -27,6 +29,9 @@ const CROWN_COLORS = ['#FFD700', '#C0C0C0', '#CD7F32'];
 
 export default function LeaderboardScreen({ navigation }) {
   const [activeTab, setActiveTab] = useState('Global');
+  const [leaderboardData, setLeaderboardData] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const currentUser = getCurrentUser();
 
   const [fontsLoaded] = useFonts({
     Nunito_900Black,
@@ -35,6 +40,22 @@ export default function LeaderboardScreen({ navigation }) {
     Poppins_600SemiBold,
   });
 
+  useEffect(() => {
+    fetchLeaderboard();
+  }, [activeTab]);
+
+  const fetchLeaderboard = async () => {
+    setLoading(true);
+    try {
+      const data = activeTab === 'Weekly'
+        ? await getWeeklyLeaderboard()
+        : await getGlobalLeaderboard();
+      setLeaderboardData(data);
+    } catch (e) {
+      setLeaderboardData([]);
+    }
+    setLoading(false);
+  };
   if (!fontsLoaded) return null;
 
   const tabs = ['Global', 'Weekly', 'Friends'];
@@ -69,9 +90,9 @@ export default function LeaderboardScreen({ navigation }) {
       </View>
 
       <View style={styles.topThree}>
-        {MOCK_DATA.slice(0, 3).map((player, i) => {
-          const order = [1, 0, 2];
-          const p = MOCK_DATA[order[i]];
+        {leaderboardData.length >= 3 && [1, 0, 2].map((orderIndex, i) => {
+          const p = leaderboardData[orderIndex];
+          if (!p) return null;
           const isFirst = order[i] === 0;
           return (
             <View key={p.rank} style={[styles.podiumItem, isFirst && styles.podiumFirst]}>
@@ -101,7 +122,13 @@ export default function LeaderboardScreen({ navigation }) {
         style={styles.list}
         showsVerticalScrollIndicator={false}
       >
-        {MOCK_DATA.slice(3).map(player => (
+        {loading ? (
+          <View style={{ padding: 40, alignItems: 'center' }}>
+            <Text style={{ color: colors.textSecondary, fontFamily: 'Poppins_400Regular', fontSize: 14 }}>
+              Loading...
+            </Text>
+          </View>
+        ) : leaderboardData.slice(3).map(player => (
           <View key={player.rank} style={styles.row}>
             <Text style={styles.rowRank}>#{player.rank}</Text>
             <View style={styles.rowAvatar}>
@@ -118,11 +145,17 @@ export default function LeaderboardScreen({ navigation }) {
         <View style={styles.yourRow}>
           <Text style={styles.rowRank}>#—</Text>
           <View style={[styles.rowAvatar, { backgroundColor: colors.gold + '33', borderColor: colors.gold }]}>
-            <Text style={[styles.rowInitials, { color: colors.gold }]}>YOU</Text>
+            <Text style={[styles.rowInitials, { color: colors.gold }]}>
+              {currentUser?.displayName?.slice(0, 2).toUpperCase() || 'YOU'}
+            </Text>
           </View>
           <View style={styles.rowInfo}>
-            <Text style={[styles.rowName, { color: colors.gold }]}>Your Position</Text>
-            <Text style={styles.rowLevel}>Start playing to rank up</Text>
+            <Text style={[styles.rowName, { color: colors.gold }]}>
+              {currentUser?.displayName || 'Guest Player'}
+            </Text>
+            <Text style={styles.rowLevel}>
+              {currentUser ? 'Keep playing to rank up' : 'Sign in to appear here'}
+            </Text>
           </View>
           <Text style={[styles.rowScore, { color: colors.gold }]}>0</Text>
         </View>

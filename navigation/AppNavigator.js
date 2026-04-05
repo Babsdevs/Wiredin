@@ -12,6 +12,9 @@ import WinScreen from '../screens/WinScreen';
 import GameOverScreen from '../screens/GameOverScreen';
 import LeaderboardScreen from '../screens/LeaderboardScreen';
 import SettingsScreen from '../screens/SettingsScreen';
+import ShopScreen from '../screens/ShopScreen';
+import TimeAttackScreen from '../screens/TimeAttackScreen';
+import LoginScreen from '../screens/LoginScreen';
 
 const Stack = createStackNavigator();
 
@@ -32,6 +35,9 @@ export default function AppNavigator() {
         <Stack.Screen name="GameOver" component={GameOverScreen} />
         <Stack.Screen name="Leaderboard" component={LeaderboardScreen} />
         <Stack.Screen name="Settings" component={SettingsScreen} />
+        <Stack.Screen name="Shop" component={ShopScreen} />
+        <Stack.Screen name="TimeAttack" component={TimeAttackScreen} />
+        <Stack.Screen name="Login" component={LoginScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

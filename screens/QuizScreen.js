@@ -12,7 +12,9 @@ import { useFonts, Nunito_900Black, Nunito_800ExtraBold } from '@expo-google-fon
 import { Poppins_400Regular, Poppins_600SemiBold } from '@expo-google-fonts/poppins';
 import { colors, categoryColors } from '../utils/theme';
 import { getQuestionsForLevel, getPassMark, calculatePoints, isLastQuestion, isFinalStretch } from '../utils/questionLoader';
-import { saveProgress, saveHighScore, addCoins } from '../utils/gameStorage';
+import { saveProgress, saveHighScore, addCoins, COIN_REWARDS } from '../utils/gameStorage';
+import { saveScoreToLeaderboard } from '../utils/firestoreService';
+import { getCurrentUser } from '../utils/authService';
 import { playSound, playBackgroundMusic, stopBackgroundMusic, duckMusic, restoreMusic } from '../utils/soundManager';
 
 const { width } = Dimensions.get('window');
@@ -113,7 +115,7 @@ export default function QuizScreen({ navigation, route }) {
     setTimeout(() => moveToNext(), 1800);
   };
 
-  const handleAnswer = (option) => {
+  const handleAnswer = async (option) => {
     if (isAnswered) return;
     clearTimer();
 
@@ -129,12 +131,25 @@ export default function QuizScreen({ navigation, route }) {
       const newMultiplier = newStreak >= 8 ? 2 : newStreak >= 5 ? 1.5 : 1;
       const finalPoints = Math.round(points * newMultiplier);
       const newScore = score + finalPoints;
+
+      const coinEarned = timeLeft > 15
+        ? COIN_REWARDS.CORRECT_FAST
+        : timeLeft > 5
+        ? COIN_REWARDS.CORRECT_MID
+        : COIN_REWARDS.CORRECT_SLOW;
+
+      const coinWithMultiplier = Math.round(coinEarned * newMultiplier);
+      await addCoins(coinWithMultiplier);
+
+      if (newStreak === 5) await addCoins(COIN_REWARDS.STREAK_5);
+      if (newStreak === 10) await addCoins(COIN_REWARDS.STREAK_10);
+
       setScore(newScore);
       setCorrectCount(prev => prev + 1);
       setStreakCount(newStreak);
       setMultiplier(newMultiplier);
       setLastPoints(finalPoints);
-      showScorePopAnimation(finalPoints);
+      showScorePopAnimation(finalPoints, coinWithMultiplier);
       duckMusic();
       playSound('correct');
       playSound('coin');
@@ -164,8 +179,9 @@ export default function QuizScreen({ navigation, route }) {
     ]).start();
   };
 
-  const showScorePopAnimation = (points) => {
+  const showScorePopAnimation = (points, coins = 0) => {
     setShowScorePop(true);
+    setLastPoints(points);
     scorePopAnim.setValue(0);
     scorePopY.setValue(0);
 
@@ -207,23 +223,41 @@ export default function QuizScreen({ navigation, route }) {
     }
   };
 
-  const finishQuiz = async () => {
+  const finishQuiz = async (attemptNumber = 1) => {
     const passMark = getPassMark(level);
     const passed = score >= passMark;
     const percentage = questions.length > 0 ? correctCount / questions.length : 0;
     const stars = percentage >= 0.9 ? 3 : percentage >= 0.6 ? 2 : 1;
+    const isPerfect = correctCount === questions.length;
 
     await saveHighScore(level, score);
-    await addCoins(score);
+    const user = getCurrentUser();
+    if (user) {
+      await saveScoreToLeaderboard(
+        user.uid,
+        user.displayName || 'Player',
+        level,
+        score
+      );
+    }
 
     if (passed) {
+      const passBonus = attemptNumber === 1
+        ? COIN_REWARDS.LEVEL_PASS_FIRST
+        : COIN_REWARDS.LEVEL_PASS_SECOND;
+      await addCoins(passBonus);
+      if (stars === 3) await addCoins(COIN_REWARDS.THREE_STARS);
+      if (isPerfect) await addCoins(COIN_REWARDS.PERFECT_ROUND);
       await saveProgress(level, stars, score);
+
       navigation.replace('Win', {
         level,
         score,
         correct: correctCount,
         total: questions.length,
         stars,
+        passBonus,
+        isPerfect,
       });
     } else {
       navigation.replace('GameOver', {
@@ -391,18 +425,19 @@ export default function QuizScreen({ navigation, route }) {
       </View>
 
       {showScorePop && (
-        <Animated.View style={[
-          styles.scorePop,
-          {
-            opacity: scorePopAnim,
-            transform: [
-              { scale: scorePopAnim },
-              { translateY: scorePopY },
-            ],
-          }
-        ]}>
-          <Text style={styles.scorePopText}>+{lastPoints}</Text>
-        </Animated.View>
+       <Animated.View style={[
+        styles.scorePop,
+        {
+          opacity: scorePopAnim,
+          transform: [
+            { scale: scorePopAnim },
+            { translateY: scorePopY },
+          ],
+        }
+      ]}>
+        <Text style={styles.scorePopText}>+{lastPoints} pts</Text>
+        <Text style={styles.coinPopText}>✦ +{Math.round(lastPoints * 2)} coins</Text>
+      </Animated.View>
       )}
 
     </SafeAreaView>
@@ -695,5 +730,12 @@ const styles = StyleSheet.create({
     fontFamily: 'Nunito_900Black',
     fontSize: 28,
     color: colors.background,
+  },
+  coinPopText: {
+    fontFamily: 'Nunito_800ExtraBold',
+    fontSize: 13,
+    color: colors.background,
+    textAlign: 'center',
+    opacity: 0.8,
   },
 });

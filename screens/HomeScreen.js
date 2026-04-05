@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import {
   View,
   Text,
@@ -11,6 +11,8 @@ import { useFonts, Nunito_900Black, Nunito_800ExtraBold } from '@expo-google-fon
 import { Poppins_400Regular, Poppins_600SemiBold } from '@expo-google-fonts/poppins';
 import { colors } from '../utils/theme';
 import { fadeOutMusic } from '../utils/soundManager';
+import BrainVault from '../components/BrainVault';
+import { getCoins, getTotalCoinsEarned, checkAndUpdateDailyStreak } from '../utils/gameStorage';
 
 const { width, height } = Dimensions.get('window');
 
@@ -58,6 +60,9 @@ export default function HomeScreen({ navigation }) {
   const pulseAnim = useRef(new Animated.Value(1)).current;
   const fadeAnim = useRef(new Animated.Value(0)).current;
   const slideAnim = useRef(new Animated.Value(30)).current;
+  const [coins, setCoins] = useState(0);
+  const [totalCoins, setTotalCoins] = useState(0);
+  const [dailyBonus, setDailyBonus] = useState(null);
 
   const [fontsLoaded] = useFonts({
     Nunito_900Black,
@@ -67,6 +72,8 @@ export default function HomeScreen({ navigation }) {
   });
 
   useEffect(() => {
+    loadHomeData();
+
     Animated.parallel([
       Animated.timing(fadeAnim, {
         toValue: 1,
@@ -97,6 +104,23 @@ export default function HomeScreen({ navigation }) {
     pulse.start();
     return () => pulse.stop();
   }, []);
+
+  const loadHomeData = async () => {
+    try {
+      const [c, t, daily] = await Promise.all([
+        getCoins(),
+        getTotalCoinsEarned(),
+        checkAndUpdateDailyStreak(),
+      ]);
+      setCoins(c);
+      setTotalCoins(t);
+      if (!daily.alreadyCollected && daily.bonus > 0) {
+        setDailyBonus(daily);
+      }
+    } catch (e) {
+      console.log('loadHomeData error:', e);
+    }
+  };
 
   if (!fontsLoaded) return null;
 
@@ -131,14 +155,14 @@ export default function HomeScreen({ navigation }) {
             <View style={styles.coinCircle}>
               <Text style={styles.coinIcon}>✦</Text>
             </View>
-            <Text style={styles.coinText}>0</Text>
+            <Text style={styles.coinText}>✦ {coins.toLocaleString()}</Text>
           </View>
-         <TouchableOpacity
-        style={styles.settingsBtn}
-        onPress={() => navigation.navigate('Settings')}
-      >
-        <Text style={styles.settingsIcon}>⚙</Text>
-      </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.settingsBtn}
+            onPress={() => navigation.navigate('Settings')}
+          >
+            <Text style={styles.settingsIcon}>⚙</Text>
+          </TouchableOpacity>
         </View>
 
         <View style={styles.logoSection}>
@@ -154,6 +178,8 @@ export default function HomeScreen({ navigation }) {
           <Text style={styles.tagline}>Know Everything. Miss Nothing.</Text>
         </View>
 
+        <BrainVault totalCoins={totalCoins} />
+
         <View style={styles.statsRow}>
           <View style={styles.statCard}>
             <Text style={styles.statNumber}>0</Text>
@@ -161,8 +187,8 @@ export default function HomeScreen({ navigation }) {
           </View>
           <View style={styles.statDivider} />
           <View style={styles.statCard}>
-            <Text style={styles.statNumber}>0</Text>
-            <Text style={styles.statLabel}>Best Score</Text>
+            <Text style={styles.statNumber}>✦ {coins.toLocaleString()}</Text>
+            <Text style={styles.statLabel}>Coins</Text>
           </View>
           <View style={styles.statDivider} />
           <View style={styles.statCard}>
@@ -171,13 +197,21 @@ export default function HomeScreen({ navigation }) {
           </View>
         </View>
 
+        {dailyBonus && (
+          <View style={styles.dailyBonusBar}>
+            <Text style={styles.dailyBonusText}>
+              🎁 Daily bonus: +{dailyBonus.bonus} coins! Day {dailyBonus.streak} streak
+            </Text>
+          </View>
+        )}
+
         <Animated.View style={{ transform: [{ scale: pulseAnim }] }}>
           <TouchableOpacity
             style={styles.playButton}
             onPress={() => {
-            fadeOutMusic(600);
-            navigation.navigate('LevelMap');
-          }}
+              fadeOutMusic(600);
+              navigation.navigate('LevelMap');
+            }}
             activeOpacity={0.85}
           >
             <View style={styles.playButtonInner}>
@@ -190,20 +224,32 @@ export default function HomeScreen({ navigation }) {
         <View style={styles.bottomRow}>
           <TouchableOpacity
             style={styles.bottomBtn}
-            onPress={() => navigation.navigate('Leaderboard')}
+            onPress={() => {
+              fadeOutMusic(400);
+              navigation.navigate('Leaderboard');
+            }}
           >
             <Text style={styles.bottomBtnIcon}>🏆</Text>
             <Text style={styles.bottomBtnText}>Leaderboard</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.bottomBtn}>
-            <Text style={styles.bottomBtnIcon}>👤</Text>
-            <Text style={styles.bottomBtnText}>Profile</Text>
+          <TouchableOpacity
+            style={[styles.bottomBtn, styles.timeAttackBtn]}
+            onPress={() => {
+              fadeOutMusic(400);
+              navigation.navigate('TimeAttack');
+            }}
+          >
+            <Text style={styles.bottomBtnIcon}>⚡</Text>
+            <Text style={[styles.bottomBtnText, { color: colors.gold }]}>Time Attack</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.bottomBtn}>
-            <Text style={styles.bottomBtnIcon}>🎁</Text>
-            <Text style={styles.bottomBtnText}>Daily Reward</Text>
+          <TouchableOpacity
+            style={styles.bottomBtn}
+            onPress={() => navigation.navigate('Shop')}
+          >
+            <Text style={styles.bottomBtnIcon}>🛒</Text>
+            <Text style={styles.bottomBtnText}>Shop</Text>
           </TouchableOpacity>
         </View>
 
@@ -295,7 +341,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 1,
-    borderColor: colors.surfaceLight,
+    borderColor: '#3D2B79',
   },
   settingsIcon: {
     fontSize: 18,
@@ -303,7 +349,7 @@ const styles = StyleSheet.create({
   },
   logoSection: {
     alignItems: 'center',
-    marginBottom: 32,
+    marginBottom: 16,
   },
   badge: {
     backgroundColor: colors.gold,
@@ -356,7 +402,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#2D1B69',
     borderRadius: 16,
     padding: 16,
-    marginBottom: 32,
+    marginBottom: 16,
     borderWidth: 1,
     borderColor: '#3D2B79',
   },
@@ -366,7 +412,7 @@ const styles = StyleSheet.create({
   },
   statNumber: {
     fontFamily: 'Nunito_900Black',
-    fontSize: 22,
+    fontSize: 18,
     color: colors.gold,
   },
   statLabel: {
@@ -383,7 +429,7 @@ const styles = StyleSheet.create({
   playButton: {
     backgroundColor: colors.gold,
     borderRadius: 30,
-    marginBottom: 32,
+    marginBottom: 24,
     overflow: 'hidden',
   },
   playButtonInner: {
@@ -418,5 +464,24 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins_400Regular',
     fontSize: 11,
     color: colors.textSecondary,
+  },
+  timeAttackBtn: {
+    borderTopWidth: 2,
+    borderTopColor: colors.gold,
+    paddingTop: 6,
+  },
+  dailyBonusBar: {
+    backgroundColor: colors.gold + '22',
+    borderRadius: 12,
+    padding: 10,
+    marginBottom: 12,
+    borderWidth: 1,
+    borderColor: colors.gold,
+    alignItems: 'center',
+  },
+  dailyBonusText: {
+    fontFamily: 'Nunito_800ExtraBold',
+    fontSize: 13,
+    color: colors.gold,
   },
 });
