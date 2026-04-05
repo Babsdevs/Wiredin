@@ -13,6 +13,7 @@ import { colors, categoryColors } from '../utils/theme';
 import { getQuestionsForLevel, getPassMark } from '../utils/questionLoader';
 import { addCoins, COIN_REWARDS } from '../utils/gameStorage';
 import { playSound, duckMusic, restoreMusic } from '../utils/soundManager';
+import { showRewardedAd } from '../utils/adManager';
 
 const TIME_ATTACK_DURATION = 60;
 const QUESTIONS_NEEDED = 5;
@@ -264,7 +265,9 @@ export default function TimeAttackScreen({ navigation }) {
 
           <TouchableOpacity
             style={styles.playAgainBtn}
-            onPress={() => {
+            onPress={async () => {
+            const result = await showRewardedAd();
+            if (result.earned) {
               setPhase('playing');
               setCurrentIndex(0);
               setTimeLeft(TIME_ATTACK_DURATION);
@@ -274,7 +277,8 @@ export default function TimeAttackScreen({ navigation }) {
               setIsAnswered(false);
               setSelectedAnswer(null);
               timerAnim.setValue(1);
-            }}
+            }
+          }}
           >
             <Text style={styles.playAgainBtnText}>⚡ PLAY AGAIN</Text>
           </TouchableOpacity>

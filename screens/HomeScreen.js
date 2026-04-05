@@ -7,6 +7,7 @@ import {
   Animated,
   Dimensions,
 } from 'react-native';
+import { BannerAd, BannerAdSize, AD_UNIT_IDS } from '../utils/adManager';
 import { useFonts, Nunito_900Black, Nunito_800ExtraBold } from '@expo-google-fonts/nunito';
 import { Poppins_400Regular, Poppins_600SemiBold } from '@expo-google-fonts/poppins';
 import { colors } from '../utils/theme';
@@ -254,6 +255,11 @@ export default function HomeScreen({ navigation }) {
         </View>
 
       </Animated.View>
+      <BannerAd
+        unitId={AD_UNIT_IDS.banner}
+        size={BannerAdSize.BANNER}
+        requestOptions={{ requestNonPersonalizedAdsOnly: false }}
+      />
     </View>
   );
 }

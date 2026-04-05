@@ -2,14 +2,22 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 import { initializeAuth, getReactNativePersistence } from 'firebase/auth';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import {
+  FIREBASE_API_KEY,
+  FIREBASE_AUTH_DOMAIN,
+  FIREBASE_PROJECT_ID,
+  FIREBASE_STORAGE_BUCKET,
+  FIREBASE_MESSAGING_SENDER_ID,
+  FIREBASE_APP_ID,
+} from '@env';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCK8Rzh8PK62xorCmcn0r5TRD2y61e6Y84",
-  authDomain: "wiredin-5050b.firebaseapp.com",
-  projectId: "wiredin-5050b",
-  storageBucket: "wiredin-5050b.firebasestorage.app",
-  messagingSenderId: "565471983533",
-  appId: "1:565471983533:web:7cfc2fe542951f508f9324"
+  apiKey: FIREBASE_API_KEY,
+  authDomain: FIREBASE_AUTH_DOMAIN,
+  projectId: FIREBASE_PROJECT_ID,
+  storageBucket: FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: FIREBASE_MESSAGING_SENDER_ID,
+  appId: FIREBASE_APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);

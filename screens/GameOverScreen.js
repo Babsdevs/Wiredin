@@ -10,6 +10,7 @@ import { useFonts, Nunito_900Black, Nunito_800ExtraBold } from '@expo-google-fon
 import { Poppins_400Regular, Poppins_600SemiBold } from '@expo-google-fonts/poppins';
 import { colors } from '../utils/theme';
 import { playSound } from '../utils/soundManager';
+import { showRewardedAd } from '../utils/adManager';
 
 export default function GameOverScreen({ navigation, route }) {
   const { level, score, passMark } = route.params || {
@@ -89,7 +90,18 @@ export default function GameOverScreen({ navigation, route }) {
 
       <Animated.View style={[styles.buttonsContainer, { opacity: fadeAnim }]}>
 
-        <TouchableOpacity style={styles.watchAdBtn}>
+        <TouchableOpacity
+          style={styles.watchAdBtn}
+          onPress={async () => {
+            const result = await showRewardedAd();
+            if (result.earned) {
+              navigation.replace('Countdown', {
+                level,
+                categories: route.params?.categories || ['Maths'],
+              });
+            }
+          }}
+        >
           <Text style={styles.watchAdIcon}>▶</Text>
           <View>
             <Text style={styles.watchAdTitle}>Watch Ad to Try Again</Text>

@@ -10,6 +10,7 @@ import { useFonts, Nunito_900Black, Nunito_800ExtraBold } from '@expo-google-fon
 import { Poppins_400Regular, Poppins_600SemiBold } from '@expo-google-fonts/poppins';
 import { colors } from '../utils/theme';
 import { playSound } from '../utils/soundManager';
+import { showInterstitial, preloadInterstitial } from '../utils/adManager';
 
 export default function WinScreen({ navigation, route }) {
   const { level, score, correct, total } = route.params || {
@@ -34,6 +35,7 @@ export default function WinScreen({ navigation, route }) {
   const coinsEarned = score;
 
   useEffect(() => {
+     preloadInterstitial();
      playSound('levelwin');
     Animated.sequence([
       Animated.spring(scaleAnim, {
@@ -112,7 +114,10 @@ export default function WinScreen({ navigation, route }) {
       <Animated.View style={[styles.buttonsContainer, { opacity: fadeAnim }]}>
         <TouchableOpacity
           style={styles.nextBtn}
-          onPress={() => navigation.navigate('Category', { level: level + 1 })}
+          onPress={async () => {
+            await showInterstitial();
+            navigation.navigate('Category', { level: level + 1 });
+          }}
         >
           <Text style={styles.nextBtnText}>NEXT LEVEL ▶</Text>
         </TouchableOpacity>
