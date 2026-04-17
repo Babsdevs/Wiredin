@@ -16,14 +16,21 @@
     ],
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.wiredin.quiz"
+      "bundleIdentifier": "com.wiredin.quiz",
+      "buildNumber": "1"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#1A0A3B"
       },
-      "package": "com.wiredin.quiz"
+      "package": "com.wiredin.quiz",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d968dc75-78ca-47b0-8ad5-44af40d28b68"
+      }
     }
   }
 }
