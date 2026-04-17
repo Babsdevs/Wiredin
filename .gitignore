@@ -44,4 +44,4 @@ yarn-error.*
 .env.local
 .env.production
 
-utils/firebase.js
+
